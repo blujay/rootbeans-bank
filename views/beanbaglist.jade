@@ -1,0 +1,11 @@
+extends layout
+
+block content
+    h1.
+        Beanbag
+    ul
+        each beanbag, i in beanbaglist
+            li
+               =beanbag.beanbagname
+               
+    a(href='newbeanbag') Add New Beanbag 

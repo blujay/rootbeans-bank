@@ -1,0 +1,16 @@
+extends layout
+
+block content
+    h1.
+        Bean List
+    h2. Scifest Brighton University 2014
+    dl
+        each bean, i in beanlist
+            dt
+                =bean.beanbag
+            dd
+                =bean.value
+            
+    a(href='newbean') Add New Bean 
+                
+                

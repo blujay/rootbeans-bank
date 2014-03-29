@@ -1,0 +1,7 @@
+extends layout
+
+block content
+    h1= title
+    form#form-add-beanbag(name="addbeanbag",method="post",action="/addbeanbag")
+        input#input-beanbagname(type="text", placeholder="bean bag name", name="beanbagname")
+        button#btn-submit(type="submit") Add Beanbag!

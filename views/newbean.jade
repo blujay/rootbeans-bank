@@ -1,0 +1,8 @@
+extends layout
+
+block content
+    h1= title
+    form#formAddBean(name="addbean",method="post",action="/addbean")
+        input#inputbeanbag(type="text", placeholder="bean Bag", name="beanbag")
+        input#inputvalue(type="text", placeholder="bean value", name="value")
+        button#btnSubmit(type="submit") Add Bean!
