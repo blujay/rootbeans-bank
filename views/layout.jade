@@ -1,7 +1,16 @@
 doctype html
 html
-  head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
-  body
-    block content
+	head
+		title= title
+		link(rel='stylesheet', href='/stylesheets/style.css')
+		body
+			header.header-site.row
+				.row-inner
+					section.branding
+						.logo 
+							h1.site-title 
+								a(href='/'): img.logo(src='images/rootbeans-beanbank-logo.png', alt='Rootbeans Beanbank')
+						.ribbon
+							a(href='/about', title='playful little data', alt='playful little data')
+			block content
+			footer.footer-site.row

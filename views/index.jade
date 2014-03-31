@@ -1,23 +1,22 @@
 extends layout
 
 block content
-    h1.= title
-    h2. playful little data
-    
-    h3. What's important to you?
-    p.
-       Rootbeans is a simple social game where we ask "what's important to you right now?"
-       this could be anything in your life big or small. Values; Things; People which mean 
-       a lot to you.
-    
-    h3. It's really easy to do
-    dl.biglist 
-       dt step 1.
-          dd Create a new Beanbag 
-       dt step 2. 
-          dd Add 10 beans
-       dt step 3.
-          dd Watch them grow
-    a.button(href='newbeanbag') Step 1 - Create a beanbag
-                
-                
+	.content.home.page.row
+		span.connector 
+		.row-inner
+			.section.info-panel
+				.block.question
+					h2.question-title What's important to you right now?
+					p.question-description.
+						Ever stopped to ask what is really important to you? it could be a value, 
+						people or thing that you can't imagine being without or that you think
+						you need in your life. Create a beanbag and put your important beans in.
+						
+					.beanbag-user-actions
+						.add-beanbag
+							a.button(href='newbeanbag', title='Add new beanbag') add a beanbag
+						form.search-beanbag(action='/', method='get')
+							input#search-box.search-beanbag(type='text', placeholder='find a beanbag' name='s')
+							button.button-search(type='submit') search beanbags
+			section.beanbag
+				.beanbag-placeholder
