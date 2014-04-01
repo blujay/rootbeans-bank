@@ -7,10 +7,12 @@ html
 			header.header-site.row
 				.row-inner
 					section.branding
-						.logo 
-							h1.site-title 
-								a(href='/'): img.logo(src='images/rootbeans-beanbank-logo.png', alt='Rootbeans Beanbank')
-						.ribbon
-							a(href='/about', title='playful little data', alt='playful little data')
+						h1.site-title 
+							a(href='/'): img.logo(src='images/rootbeans-beanbank-logo.png', alt='Rootbeans Beanbank')
+					.ribbon
+						a(href='/about', title='playful little data', alt='playful little data')
 			block content
 			footer.footer-site.row
+				nav.nav-footer
+					a(href='http://www.rootbeans.com', title='Visit Rootbeans website') About the project
+					a(href='http://www.github.com/blujay/rootbeans-bank', title='mooch around the code and fork it if you like on Github') Fork me on Github

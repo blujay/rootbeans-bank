@@ -1,9 +1,68 @@
 extends layout
 
 block content
-	.content.home.page.row
-		.row-inner
-			h1= title
-			form#form-add-beanbag(name="addbeanbag",method="post",action="/addbeanbag")
-			input#input-beanbagname(type="text", placeholder="bean bag name", name="beanbagname")
-			button#btn-submit(type="submit") Add Beanbag!
+	.content.newbean.page.row
+			.row-inner
+				h1 Question: What's important for you right now?
+				form#form-add-beanbag(name="addbeanbag",method="post",action="/addbeanbag")
+					fieldset.fieldset-add-beans
+						legend Fill up a new beanbag
+						p Put a single word on each bean in answer of this question. The words can be values, people, ideas, things etc.. This is open data so don't put anything that you don't want random people to read. 
+						p.bean1
+							label(for="bean1name")
+							input.input-bean-1name(type="text", name="bean1name", id="bean1name")
+						p.bean2
+							label(for="bean2name")
+							input.input-bean-2name(type="text", name="bean2name", id="bean2name")
+						p.bean3
+							label(for="bean3name")
+							input.input-bean-3name(type="text", name="bean3name", id="bean3name")
+						p.bean4
+							label(for="bean4name")
+							input.input-bean-4name(type="text", name="bean4name", id="bean4name")
+						p.bean5
+							label(for="bean5name")
+							input.input-bean-5name(type="text", name="bean5name", id="bean5name")
+						p.bean6
+							label(for="bean6name")
+							input.input-bean-6name(type="text", name="bean6name", id="bean6name")
+						p.bean7
+							label(for="bean7name")
+							input.input-bean-7name(type="text", name="bean7name", id="bean7name")
+						p.bean8
+							label(for="bean8name")
+							input.input-bean-8name(type="text", name="bean8name", id="bean8name")
+						p.bean9
+							label(for="bean9name")
+							input.input-bean-9name(type="text", name="bean9name", id="bean9name")
+						p.bean10
+							label(for="bean10name")
+							input.input-bean-10name(type="text", name="bean10name", id="bean10name")
+						p.beanbagname
+							label(for="beanbagname") Name that beanbag!
+							input.input-beanbag-name(type="text", placeholder="Give it a name", name="beanbagname", id="beanbagname")
+						
+					fieldset.fieldset-extra-beanbag-info.toggle
+						legend About your beanbag... (optional ;-))
+						p.description
+							label(for="country") A short description of your beanbag
+							textarea.input-description(cols="49", rows="5" placeholder="If you want to, you can tell us something about your beanbag. Why you chose these beans to put in it (max 40-50 words)", name="description", id="description")
+						p.towncity
+							label(for="towncity") What town or city are you in right now?
+							input.input-location(type="text", name="towncity", id="towncity")
+						p.country
+							label(for="country") What country is that?
+							input.input-country(type="text", name="country", id="country")
+						
+					fieldset.fieldset-personal-user-info.toggle 
+						legend We'd love to stay in touch (optional ...really)	
+						p We'd love to stay in touch with you and help you find your beanbag if you loose it. If you tell us how to do that
+						we will email you. We promise not to give THIS info to anyone (not knowingly anyway)
+						p.username 
+							label(for="username") Create a username (be anyone)
+							input.input-name(type="text", name="username", id="username")
+						p.email
+							label(for="email") Can we put you on our mailing list?
+							input.input-email(type="text", placeholder="your email address", name="email", id="email")
+
+					button#btnSubmit.button(type="submit") Add that beanbag!

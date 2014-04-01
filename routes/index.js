@@ -67,18 +67,92 @@ exports.newbeanbag = function(req,res){
 	res.render('newbeanbag', { title : 'Add New Beanbag!'});
 };
 
+
 exports.addbeanbag = function(db) {
     return function(req, res) {
 
         // Get our form values. These rely on the "name" attributes
         var beanbagname = req.body.beanbagname;
+        var description = req.body.description;
+        var date = new Date();
+        var username = req.body.username;
+        var email = req.body.email;
+        var towncity = req.body.towncity;
+        var country = req.body.country;
+        var bean1name = req.body.bean1name;
+        var bean2name = req.body.bean2name;
+        var bean3name = req.body.bean3name;
+        var bean4name = req.body.bean4name;
+        var bean5name = req.body.bean5name;
+        var bean6name = req.body.bean6name;
+        var bean7name = req.body.bean7name;
+        var bean8name = req.body.bean8name;
+        var bean9name = req.body.bean9name;
+        var bean10name = req.body.bean10name;
 
         // Set our collection
         var collection = db.get('beanbag');
 
         // Submit to the DB
         collection.insert({
-            "beanbagname" : beanbagname
+            "beanbagname" : beanbagname,
+            "username" : username,
+            "email" : email,
+            "towncity" : towncity,
+            "country" : country,
+            "description" :description,
+            "beans" :[
+            				{
+            				"name" : bean1name,
+            				"beanbag"  : beanbagname,
+            				"date"	: date 
+            				},
+            				{
+            				"name" : bean2name,
+            				"beanbag"  : beanbagname,
+            				"date"	: date 
+            				},
+            				{
+            				"bname" : bean3name,
+            				"beanbag"  : beanbagname,
+            				"date"	: date 
+            				},
+            				{
+            				"name" : bean4name,
+            				"beanbag"  : beanbagname,
+            				"date"	: date 
+            				},
+            				{
+            				"name" : bean5name,
+            				"beanbag"  : beanbagname,
+            				"date"	: date 
+            				},
+            				{
+            				"name" : bean6name,
+            				"beanbag"  : beanbagname,
+            				"date"	: date 
+            				},
+            				{
+            				"name" : bean7name,
+            				"beanbag"  : beanbagname,
+            				"date"	: date 
+            				},
+            				{
+            				"name" : bean8name,
+            				"beanbag"  : beanbagname,
+            				"date"	: date 
+            				},
+            				{
+            				"name" : bean9name,
+            				"beanbag"  : beanbagname,
+            				"date"	: date 
+            				},
+            				{
+            				"name" : bean10name,
+            				"beanbag"  : beanbagname,
+            				"date"	: date 
+            				}
+            			]
         }, function (err, doc) {
             if (err) {
                 // If it failed, return error
@@ -98,7 +172,7 @@ exports.addbeanbag = function(db) {
 
 exports.beanlist = function(db){
 	return function(req, res){
-		var collection = db.get('beans');
+		var collection = db.get('beanbag.beans');
 		collection.find({},{},function(e,docs){
 			res.render('beanlist', {
 				"beanlist" : docs

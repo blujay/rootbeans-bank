@@ -1,8 +1,10 @@
 extends layout
 
 block content
-    h1= title
-    form#formAddBean(name="addbean",method="post",action="/addbean")
-        input#inputbeanbag(type="text", placeholder="bean Bag", name="beanbag")
-        input#inputvalue(type="text", placeholder="bean value", name="value")
-        button#btnSubmit(type="submit") Add Bean!
+	.content.newbean.page.row
+		.row-inner
+			h1= title
+			form#form-add-bean(name="addbean",method="post",action="/addbean")
+				input#inputbeanbag(type="text", placeholder="bean Bag", name="beanbag")
+				input#inputvalue(type="text", placeholder="bean value", name="value")
+				button#btnSubmit(type="submit") Add Bean!

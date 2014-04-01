@@ -1,11 +1,16 @@
 extends layout
 
 block content
-    h1.
-        Beanbag
-    ul
-        each beanbag, i in beanbaglist
-            li
-               =beanbag.beanbagname
-               
-    a(href='newbeanbag') Add New Beanbag 
+	.content.beanbaglist.page.row
+		.row-inner
+			h2.
+				Beanbag
+			h3 Ooh woulnd't you like to see what's inside those beanbags? coming soon...
+			dl
+				each beanbag, i in beanbaglist
+					dt
+						=beanbag.beanbagname
+					dd
+						=beanbag.description
+						
+			a.button(href='newbeanbag') Add New Beanbag 
