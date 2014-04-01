@@ -1,0 +1,13 @@
+extends layout
+
+block content
+	.content.beanbagbeanslist.page.row
+		.row-inner
+			h2.
+				Beanbag beanslist
+			dl
+				each bean, i in beanbagbeanslist
+					dt
+						=beanbagbeanslist.name
+						
+			a.button(href='newbeanbag') Add New Beanbag 

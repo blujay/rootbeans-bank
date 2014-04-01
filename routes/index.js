@@ -55,13 +55,16 @@ exports.adduser = function(db) {
 exports.beanbaglist = function(db) {
     return function(req, res) {
         var collection = db.get('beanbag');
-        collection.find({},{},function(e,docs){
+        collection.find({},'beanbagname description beans',function(e,docs){
             res.render('beanbaglist', {
                 "beanbaglist" : docs
             });
         });
     };
 };
+
+
+
 
 exports.newbeanbag = function(req,res){
 	res.render('newbeanbag', { title : 'Add New Beanbag!'});
@@ -113,7 +116,7 @@ exports.addbeanbag = function(db) {
             				"date"	: date 
             				},
             				{
-            				"bname" : bean3name,
+            				"name" : bean3name,
             				"beanbag"  : beanbagname,
             				"date"	: date 
             				},

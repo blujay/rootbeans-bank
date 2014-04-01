@@ -3,14 +3,19 @@ extends layout
 block content
 	.content.beanbaglist.page.row
 		.row-inner
-			h2.
-				Beanbag
-			h3 Ooh woulnd't you like to see what's inside those beanbags? coming soon...
-			dl
+			h2.page-title Beanbag
+			.beanbag-list
 				each beanbag, i in beanbaglist
-					dt
-						=beanbag.beanbagname
-					dd
-						=beanbag.description
+					.beanbag-item
+						h3.beanbag-title 
+							=beanbag.beanbagname
+						p 
+							=beanbag.description
 						
+						ul.beans-list
+							each bean, b in beanbag.beans
+								li.bean
+									=bean.name
+
+									
 			a.button(href='newbeanbag') Add New Beanbag 
