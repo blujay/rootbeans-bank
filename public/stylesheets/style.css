@@ -51,9 +51,11 @@ fieldset {
     padding: 2em;
 }
 	fieldset > legend {
-		font-size:2em;
+		font-size:1.5em;
 		font-weight:bold;
 	}
+	
+	fieldset > h3 {}
 
 * {
  -webkit-box-sizing:border-box;
@@ -144,6 +146,8 @@ body {
 }
 	.row.content > .row-inner {
 		min-height:15em;
+		display:block;
+		position:relative;
 	}
 
 span.connector {

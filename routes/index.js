@@ -63,25 +63,16 @@ exports.beanbaglist = function(db) {
     };
 };
 
-
-
-
 exports.newbeanbag = function(req,res){
 	res.render('newbeanbag', { title : 'Add New Beanbag!'});
 };
-
 
 exports.addbeanbag = function(db) {
     return function(req, res) {
 
         // Get our form values. These rely on the "name" attributes
         var beanbagname = req.body.beanbagname;
-        var description = req.body.description;
         var date = new Date();
-        var username = req.body.username;
-        var email = req.body.email;
-        var towncity = req.body.towncity;
-        var country = req.body.country;
         var bean1name = req.body.bean1name;
         var bean2name = req.body.bean2name;
         var bean3name = req.body.bean3name;
@@ -99,11 +90,7 @@ exports.addbeanbag = function(db) {
         // Submit to the DB
         collection.insert({
             "beanbagname" : beanbagname,
-            "username" : username,
-            "email" : email,
-            "towncity" : towncity,
-            "country" : country,
-            "description" :description,
+            "created" : date,
             "beans" :[
             				{
             				"name" : bean1name,
