@@ -6,4 +6,4 @@ A web app built using MongoDB and nodejs asking 'what's important for you right 
 <strong>Rootbeans blog</strong> : http://www.rootbeans.com<br />
 <strong>Rootbeansbank App</strong> : http://www.rootbeans.com
 
-<p><img src ="http://www.rootbeans.com/wp-content/uploads/2014/03/12744394825_5d980bbd4a_o-640x320.jpg" /></p>
+<p><img src ="http://www.rootbeans.com/wp-content/uploads/2014/03/beanbank-beanbag-dark-mockup.png" /></p>
