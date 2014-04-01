@@ -267,7 +267,12 @@ a.button, button.button {
 	background-color:#4D4D4D;
 }
 
-.nav-footer > a {
+.nav-footer {
+    display: block;
+    position: relative;
+}
+
+.nav-footer a {
     color: #C6DA6A;
     padding: 0.5em;
 }
