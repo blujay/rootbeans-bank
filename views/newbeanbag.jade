@@ -1,17 +1,14 @@
 extends layout
 
-block content
+block contenth2 Question: What's important for you right now?
+				p	Ever stopped to ask what is really important to you? it could be a value, people or thing that you can't imagine being without or that you think you need in your life. Create a beanbag and put your important beans in (one word on each)
 	.content.newbean.page.row
 			.row-inner
-				h2 Question: What's important for you right now?
-				p	Ever stopped to ask what is really important to you? it could be a value, people or thing that you can't imagine being without or that you think you need in your life. Create a beanbag and put your important beans in (one word on each)
+				
 				form#form-add-beanbag(name="addbeanbag",method="post",action="/addbeanbag")
-					fieldset.fieldset-beanbag-info
-						legend Name your beanbag
-						p.beanbagname
-							input.input-beanbag-name(type="text", placeholder="short and sweet", name="beanbagname", id="beanbagname")
+					
 					fieldset.fieldset-add-beans
-						legend Add some beans
+						legend Name some beans
 						p.bean1
 							input.bean.input.bean1name(type="text", name="bean1name", id="bean1name")
 						p.bean2
@@ -32,6 +29,11 @@ block content
 							input.bean.input.bean9name(type="text", name="bean9name", id="bean9name")
 						p.bean10
 							input.bean.input.bean10name(type="text", name="bean10name", id="bean10name")
-						button#btnSubmit.button(type="submit") Add Beanbag!
+					fieldset.fieldset-beanbag-info
+						legend Name your beanbag
+						p.beanbagname
+							input.input-beanbag-name(type="text", placeholder="short and sweet", name="beanbagname", id="beanbagname")
+						
+						button#btnSubmit.button(type="submit") Add your beanbag!
 					
 				

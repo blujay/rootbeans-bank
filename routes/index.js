@@ -55,7 +55,7 @@ exports.adduser = function(db) {
 exports.beanbaglist = function(db) {
     return function(req, res) {
         var collection = db.get('beanbag');
-        collection.find({},'beanbagname description beans',function(e,docs){
+            collection.find({},{ sort: {_id: -1 }},function(e,docs){
             res.render('beanbaglist', {
                 "beanbaglist" : docs
             });
@@ -73,6 +73,7 @@ exports.addbeanbag = function(db) {
         // Get our form values. These rely on the "name" attributes
         var beanbagname = req.body.beanbagname;
         var date = new Date();
+        var value = 1;
         var bean1name = req.body.bean1name;
         var bean2name = req.body.bean2name;
         var bean3name = req.body.bean3name;
@@ -95,27 +96,32 @@ exports.addbeanbag = function(db) {
             				{
             				"name" : bean1name,
             				"beanbag"  : beanbagname,
-            				"date"	: date 
+            				"date"	: date,
+            				"value"	: value
             				},
             				{
             				"name" : bean2name,
             				"beanbag"  : beanbagname,
-            				"date"	: date 
+            				"date"	: date,
+            				"value"	: value
             				},
             				{
             				"name" : bean3name,
             				"beanbag"  : beanbagname,
-            				"date"	: date 
+            				"date"	: date,
+            				"value"	: value 
             				},
             				{
             				"name" : bean4name,
             				"beanbag"  : beanbagname,
-            				"date"	: date 
+            				"date"	: date,
+            				"value"	: value
             				},
             				{
             				"name" : bean5name,
             				"beanbag"  : beanbagname,
-            				"date"	: date 
+            				"date"	: date,
+            				"value"	: value 
             				},
             				{
             				"name" : bean6name,
@@ -125,22 +131,26 @@ exports.addbeanbag = function(db) {
             				{
             				"name" : bean7name,
             				"beanbag"  : beanbagname,
-            				"date"	: date 
+            				"date"	: date,
+            				"value"	: value
             				},
             				{
             				"name" : bean8name,
             				"beanbag"  : beanbagname,
-            				"date"	: date 
+            				"date"	: date,
+            				"value"	: value
             				},
             				{
             				"name" : bean9name,
             				"beanbag"  : beanbagname,
-            				"date"	: date 
+            				"date"	: date,
+            				"value"	: value 
             				},
             				{
             				"name" : bean10name,
             				"beanbag"  : beanbagname,
-            				"date"	: date 
+            				"date"	: date,
+            				"value"	: value 
             				}
             			]
         }, function (err, doc) {
