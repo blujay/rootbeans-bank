@@ -22,7 +22,7 @@ h3 {
 }
 
 a, a:link, a:visited, a:active, a:focus {
-  color: #00B7FF;
+  color: #217867;
   text-decoration:none;
 }
 
@@ -257,6 +257,140 @@ a.button, button.button {
 #form-add-beanbag label {
     display: block;
     margin-bottom: 0.25em;
+}
+
+/*****View beans******/
+
+.page-title .question {
+    color: #555555;
+    font-size: 0.8em;
+    font-weight: normal;
+}
+
+.question > .button {
+    font-size: 0.7em;
+    margin-left: 1em;
+    padding: 0.5em 1em;
+    position: relative;
+    right: 0;
+}
+
+.beanbag-item {
+    background-color: #EEEEEE;
+    display: block;
+    float: left;
+    margin: 1%;
+    padding: 1em;
+    text-align: center;
+    width: 48%;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+}
+
+.beans-list {
+	list-style:none;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+.bean-item {
+    color: #333333;
+    display: inline-block;
+    position:relative;
+    height: 92px;
+    margin: 10px;
+    width: 153px;
+}
+
+a.bean-link {
+    color: #FFFFFF;
+    height: 100%;
+    left: 0;
+    line-height: 5em;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+
+span.bean-name {
+    font-size: 1.3em;
+    height: 100%;
+    left: 0;
+    padding-top: 0.4em;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+.bean-svg {
+	fill:#333;
+}
+
+a.bean-link[title="Health"] .bean-svg {
+   fill:#D40000;
+}
+
+a.bean-link[title="Mental Health"] .bean-svg {
+   fill:#D40000;
+}
+
+a.bean-link[title="Wellbeing"] .bean-svg {
+   fill:#D40000;
+}
+
+a.bean-link[title="Family"] .bean-svg {
+   fill:#97B800;
+}
+
+a.bean-link[title="Friends"] .bean-svg {
+   fill:#D45500;
+}
+
+a.bean-link[title="Friendship"] .bean-svg {
+   fill:#D45500;
+}
+
+a.bean-link[title="Food"] .bean-svg {
+   fill:#CF5226;
+}
+
+a.bean-link[title="Love"] .bean-svg {
+   fill:red;
+}
+
+a.bean-link[title="Music"] .bean-svg {
+   fill:#217867;
+}
+
+a.bean-link[title="Singing"] .bean-svg {
+   fill:#217867;
+}
+
+a.bean-link[title="Home"] .bean-svg {
+   fill:#9F597D;
+}
+
+a.bean-link[title="House"] .bean-svg {
+   fill:#9F597D;
+}
+
+a.bean-link[title="Happiness"] .bean-svg {
+   fill:#782121;
+}
+
+a.bean-link[title="Happy"] .bean-svg {
+   fill:#782121;
+}
+
+a.bean-link[title="Sunshine"] .bean-svg {
+   fill:#D4AA00;
+}
+
+.bean-item:hover .bean-svg {
+	fill:#8E946D;
 }
 
 

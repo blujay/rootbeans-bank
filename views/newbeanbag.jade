@@ -1,9 +1,10 @@
 extends layout
 
-block contenth2 Question: What's important for you right now?
-				p	Ever stopped to ask what is really important to you? it could be a value, people or thing that you can't imagine being without or that you think you need in your life. Create a beanbag and put your important beans in (one word on each)
+block content
 	.content.newbean.page.row
-			.row-inner
+		.row-inner
+			h2 Question: What's important for you right now?
+			p	Ever stopped to ask what is really important to you? it could be a value, people or thing that you can't imagine being without or that you think you need in your life. Create a beanbag and put your important beans in (one word on each)
 				
 				form#form-add-beanbag(name="addbeanbag",method="post",action="/addbeanbag")
 					

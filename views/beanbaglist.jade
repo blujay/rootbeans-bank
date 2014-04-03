@@ -3,20 +3,26 @@ extends layout
 block content
 	.content.beanbaglist.page.row
 		.row-inner
-			h2.page-title All your Beanbags
-			h3 Question: What's important for you right now?
-			p	Here are the little data beans created by people on the question above.
-			a.button(href='newbeanbag') Add New Beanbag 
+			h2.page-title All Beanbags: 
+				span.question What's important for you right now?  
+					a.button(href='newbeanbag') Add New Beanbag 
+			
 			.beanbag-list
 				each beanbag, i in beanbaglist
 					.beanbag-item
 						h3.beanbag-title 
 							=beanbag.beanbagname
-						p 
-							=beanbag.description
 						
 						ul.beans-list
 							each bean, b in beanbag.beans
-								li.bean
-									=bean.name
+								li.bean-item
+									-var name = bean.name
+									a.bean-link(title="#{name}", href="http://en.wikipedia.org/wiki/#{name}")
+											include /images/beanmask.svg
+											span.bean-name
+												=bean.name
+										
+									
+
+										
 			a.button(href='newbeanbag') Add New Beanbag 
