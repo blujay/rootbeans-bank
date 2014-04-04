@@ -7,9 +7,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
-   width="153.14565"
-   height="91.976341"
-   id="svg3309"
+   viewBox="0 0 155 93"
+   class="bean-svg-shell"
    inkscape:version="0.48.3.1 r9886"
    sodipodi:docname="bean.svg">
   <sodipodi:namedview
@@ -23,7 +22,6 @@
      inkscape:pageshadow="2"
      inkscape:window-width="640"
      inkscape:window-height="480"
-     id="namedview3016"
      showgrid="false"
      inkscape:zoom="2.0046277"
      inkscape:cx="76.572823"

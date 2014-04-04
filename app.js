@@ -36,14 +36,11 @@ if ('development' == app.get('env')) {
 }
 
 app.get('/', routes.index);
-app.get('/userlist', routes.userlist(db));
 app.get('/beanbaglist', routes.beanbaglist(db));
 app.get('/beanlist', routes.beanlist(db));
-app.get('/newuser', routes.newuser);
 app.get('/newbeanbag', routes.newbeanbag);
 app.get('/newbean', routes.newbean);
 
-app.post('/adduser', routes.adduser(db));
 app.post('/addbeanbag', routes.addbeanbag(db));
 app.post('/addbean', routes.addbean(db));
 

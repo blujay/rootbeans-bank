@@ -1,3 +1,4 @@
+
 extends layout
 
 block content
@@ -15,10 +16,9 @@ block content
 						
 						ul.beans-list
 							each bean, b in beanbag.beans
-								li.bean-item
-									-var name = bean.name
-									a.bean-link(title="#{name}", href="http://en.wikipedia.org/wiki/#{name}")
-											include /images/bean.svg
+								-var name = bean.name
+								li.bean-item.bean(rel='#{name}')
+									a.bean-link.icon-bean1.bean-form(title="#{name}", href="http://en.wikipedia.org/wiki/#{name}")
 											span.bean-name
 												=bean.name
 										

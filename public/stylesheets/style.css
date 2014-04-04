@@ -136,7 +136,7 @@ body {
 	height:134px;
 }
 .ribbon a {
-	background-image:url(/images/ribbon.png);
+	background-image:url(/images/ribbon-fs8.png);
 }
 
 /*****Content******/
@@ -151,7 +151,7 @@ body {
 	}
 
 span.connector {
-    background-image: url("/images/connecting-line.png");
+    background-image: url("/images/connecting-line-fs8.png");
     background-repeat: no-repeat;
     background-size: 100% auto;
     display: table;
@@ -218,7 +218,7 @@ a.button, button.button {
 
 
 .button-search {
-    background: url("/images/search-icon.png") repeat scroll 0 0 / 100% auto rgba(0, 0, 0, 0);
+    background: url("/images/search-icon-fs8.png") repeat scroll 0 0 / 100% auto rgba(0, 0, 0, 0);
     border: medium none;
     cursor: pointer;
     text-indent: -9999px;
@@ -248,7 +248,7 @@ a.button, button.button {
 	width:100%;
 	height: 0;
     padding: 100% 0 0 0;
-	background-image:url(/images/beanbag-holder-image.png);
+	background-image:url(/images/beanbag-holder-image-fs8.png);
 	background-size:100%;
 }
 
@@ -276,16 +276,20 @@ a.button, button.button {
 }
 
 .beanbag-item {
-    background-color: #EEEEEE;
+    background-color: #f8f8f8;
+    border-radius: 50%;
     display: block;
     float: left;
     margin: 1%;
-    padding: 1em;
+    padding: 3em;
     text-align: center;
     width: 48%;
-    border-radius:50%;
-    -moz-border-radius:50%;
-    -webkit-border-radius:50%;
+}
+
+.beanbag-title {
+    color: #777777;
+    font-weight: normal;
+    margin: 0;
 }
 
 .beans-list {
@@ -294,104 +298,199 @@ a.button, button.button {
 	padding:0;
 	text-align:center;
 }
+
 .bean-item {
-    color: #333333;
     display: inline-block;
-    position:relative;
-    height: 92px;
-    margin: 10px;
-    width: 153px;
+    height: 4em;
+    margin: 0.5em;
+    position: relative;
+    width: 6em;
+    overflow:hidden;
+}
+
+.bean-form {
+	font-size:6em;
+	color:#333333;
+	
 }
 
 a.bean-link {
-    color: #FFFFFF;
+    display: block;
     height: 100%;
+    width:100%;
+    position: relative;
+    top: 0;
+    color:#333;
+    line-height:0.7em;
+}
+
+.bean-name {
+    color: #FFFFFF;
+    font-size: 0.17em;
     left: 0;
-    line-height: 5em;
     position: absolute;
     text-align: center;
     top: 0;
     width: 100%;
+    font-family:"ubuntu condensed",sans-serif;
+    text-transform:capitalize;
 }
 
-span.bean-name {
-    font-size: 1.3em;
-    height: 100%;
-    left: 0;
-    padding-top: 0.4em;
-    position: absolute;
+.bean-link a:hover {
+    display: block;
+    height: auto;
+    position: relative;
     top: 0;
-    width: 100%;
+    color:#8E946D;
+}
+
+a.bean-link[title="Health"],
+a.bean-link[title="Wellbeing"],
+a.bean-link[title="Mental Health"] {
+   color:#D40000;
+}
+
+a.bean-link[title="Family"],
+a.bean-link[title="Children"],
+a.bean-link[title="Child"],
+a.bean-link[title="Daddy"],
+a.bean-link[title="Daughter"],
+a.bean-link[title="My daughter"],
+a.bean-link[title="Grandchildren"],
+a.bean-link[title="Grandma"],
+a.bean-link[title="Sister"],
+a.bean-link[title="Dad"],
+a.bean-link[title="Brother"],
+a.bean-link[title="Boyfriend"],
+a.bean-link[title="Gradpa"],
+a.bean-link[title="Mum"],
+a.bean-link[title="Wife"],
+a.bean-link[title="Son"]{
+   color:#97B800;
+}
+
+a.bean-link[title="Fun"],
+a.bean-link[title="Enjoyment"] {
+   color:#EFB61D;
+}
+
+a.bean-link[title="Friends"],
+a.bean-link[title="Friendship"] {
+   color:#217867;
+}
+
+a.bean-link[title="Learning"],
+a.bean-link[title="Books"],
+a.bean-link[title="Education"],
+a.bean-link[title="Knowledge"],
+a.bean-link[title="School"],
+a.bean-link[title="Studying"]    {
+   color:#53BF94;
+}
+
+a.bean-link[title="Food"],
+a.bean-link[title="Health food"] {
+   color:#CF5226;
+}
+
+a.bean-link[title="Love"] {
+   color:red;
+}
+
+a.bean-link[title="Music"],
+a.bean-link[title="Singing"] {
+   color:#4F5C7F;
+}
+
+a.bean-link[title="Nature"],
+a.bean-link[title="Environment"] {
+   color:#64AF57;
+}
+
+a.bean-link[title="Home"],
+a.bean-link[title="House"] {
+   color:#9F597D;
+}
+
+a.bean-link[title="Peace"] {
+   color:#8F7D7D;
 }
 
 
-.bean-svg {
-	fill:#333;
+a.bean-link[title="Happiness"],
+a.bean-link[title="Happy"],
+a.bean-link[title="Joy"]{
+   color:#FF0064;
 }
 
-a.bean-link[title="Health"] .bean-svg {
-   fill:#D40000;
+a.bean-link[title="Sunshine"],
+a.bean-link[title="Sun"] {
+   color:#D4AA00;
 }
 
-a.bean-link[title="Mental Health"] .bean-svg {
-   fill:#D40000;
+a.bean-link[title="Work"],
+a.bean-link[title="Career"],
+a.bean-link[title="Job"]{
+	color:#5F1D45;
 }
 
-a.bean-link[title="Wellbeing"] .bean-svg {
-   fill:#D40000;
+a.bean-link:hover {
+	color:#8E946D;
 }
 
-a.bean-link[title="Family"] .bean-svg {
-   fill:#97B800;
+.bean-item[rel="Health"],
+.bean-item[rel="Family"],
+.bean-item[rel="Freedom"],
+.bean-item[rel="Friends"],
+.bean-item[rel="Food"],
+.bean-item[rel="Health food"]{
+	font-size:1.6em;
 }
 
-a.bean-link[title="Friends"] .bean-svg {
-   fill:#D45500;
+.bean-item[rel="Love"],
+.bean-item[rel="Happiness"],
+.bean-item[rel="Happy"],
+.bean-item[rel="Music"]
+{
+	font-size:1.4em;
 }
 
-a.bean-link[title="Friendship"] .bean-svg {
-   fill:#D45500;
+.bean-item[rel="Learning"],
+.bean-item[rel="Education"],
+.bean-item[rel="Knowledge"],
+.bean-item[rel="Studying"],
+.bean-item[rel="School"],
+.bean-item[rel="Books"],
+.bean-item[rel="Fun"],
+.bean-item[rel="Enjoyment"],
+.bean-item[rel="Joy"],
+.bean-item[rel="Sunshine"],
+.bean-item[rel="Sun"],
+.bean-item[rel="Job"],
+.bean-item[rel="Career"],
+.bean-item[rel="Work"],
+.bean-item[rel="Nature"],
+.bean-item[rel="Environment"],
+.bean-item[rel="Peace"],
+.bean-item[rel="Child"],
+.bean-item[rel="Children"],
+.bean-item[rel="Grandchildren"],
+.bean-item[rel="Grandchild"],
+.bean-item[rel="Daddy"],
+.bean-item[rel="Daughter"],
+.bean-item[rel="Mum"],
+.bean-item[rel="Sister"],
+.bean-item[rel="Dad"],
+.bean-item[rel="Boyfriend"],
+.bean-item[rel="Brother"],
+.bean-item[rel="Son"],
+.bean-item[rel="Wife"],
+.bean-item[rel="Husband"]{
+	font-size:1.2em;
 }
 
-a.bean-link[title="Food"] .bean-svg {
-   fill:#CF5226;
-}
 
-a.bean-link[title="Love"] .bean-svg {
-   fill:red;
-}
 
-a.bean-link[title="Music"] .bean-svg {
-   fill:#217867;
-}
-
-a.bean-link[title="Singing"] .bean-svg {
-   fill:#217867;
-}
-
-a.bean-link[title="Home"] .bean-svg {
-   fill:#9F597D;
-}
-
-a.bean-link[title="House"] .bean-svg {
-   fill:#9F597D;
-}
-
-a.bean-link[title="Happiness"] .bean-svg {
-   fill:#782121;
-}
-
-a.bean-link[title="Happy"] .bean-svg {
-   fill:#782121;
-}
-
-a.bean-link[title="Sunshine"] .bean-svg {
-   fill:#D4AA00;
-}
-
-.bean-item:hover .bean-svg {
-	fill:#8E946D;
-}
 
 
 
