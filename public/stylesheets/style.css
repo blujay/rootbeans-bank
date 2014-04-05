@@ -374,6 +374,10 @@ a.bean-link[title="Enjoyment"] {
    color:#EFB61D;
 }
 
+a.bean-link[title="Freedom"] {
+	color:#00CFB7;
+}
+
 a.bean-link[title="Friends"],
 a.bean-link[title="Friendship"] {
    color:#217867;
@@ -440,7 +444,6 @@ a.bean-link:hover {
 
 .bean-item[rel="Health"],
 .bean-item[rel="Family"],
-.bean-item[rel="Freedom"],
 .bean-item[rel="Friends"],
 .bean-item[rel="Food"],
 .bean-item[rel="Health food"]{
@@ -472,6 +475,7 @@ a.bean-link:hover {
 .bean-item[rel="Nature"],
 .bean-item[rel="Environment"],
 .bean-item[rel="Peace"],
+.bean-item[rel="Freedom"],
 .bean-item[rel="Child"],
 .bean-item[rel="Children"],
 .bean-item[rel="Grandchildren"],
@@ -479,6 +483,8 @@ a.bean-link:hover {
 .bean-item[rel="Daddy"],
 .bean-item[rel="Daughter"],
 .bean-item[rel="Mum"],
+.bean-item[rel="Grandma"],
+.bean-item[rel="Grandpa"],
 .bean-item[rel="Sister"],
 .bean-item[rel="Dad"],
 .bean-item[rel="Boyfriend"],
