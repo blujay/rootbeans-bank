@@ -446,14 +446,17 @@ a.bean-link:hover {
 .bean-item[rel="Family"],
 .bean-item[rel="Friends"],
 .bean-item[rel="Food"],
-.bean-item[rel="Health food"]{
+.bean-item[rel="Health food"],
+.bean-item[rel="Home"],
+.bean-item[rel="Love"],
+.bean-item[rel="House"]{
 	font-size:1.6em;
 }
 
-.bean-item[rel="Love"],
+
 .bean-item[rel="Happiness"],
-.bean-item[rel="Happy"],
-.bean-item[rel="Music"]
+.bean-item[rel="Happy"]
+
 {
 	font-size:1.4em;
 }
@@ -473,6 +476,8 @@ a.bean-link:hover {
 .bean-item[rel="Career"],
 .bean-item[rel="Work"],
 .bean-item[rel="Nature"],
+.bean-item[rel="Music"],
+.bean-item[rel="Singing"],
 .bean-item[rel="Environment"],
 .bean-item[rel="Peace"],
 .bean-item[rel="Freedom"],
