@@ -11,8 +11,21 @@ exports.beanbaglist = function(db) {
     return function(req, res) {
         var collection = db.get('beanbag');
             collection.find({},{ sort: {_id: -1 }},function(e,docs){
+            var beancounts={};
+            for(var i=0;i<docs.length;i++){
+            	var bag=docs[i];
+            	for(var j=0;j<bag.beans;j++){
+            	  var bean=bag.beans[j];
+            	  if(beancounts[bean.name]){
+            	    beancounts[bean.name]++;
+            	  }else {
+            	    beancounts[bean.name]=1;	
+            	  }
+            	}
+            }
             res.render('beanbaglist', {
-                "beanbaglist" : docs
+                "beanbaglist" : docs,
+                "beancounts" : beancounts
             });
         });
     };
