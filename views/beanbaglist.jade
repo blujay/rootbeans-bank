@@ -1,30 +1,33 @@
-
 extends layout
 
 block content
-	.content.beanbaglist.page.row
-		.row-inner
-			h2.page-title All Beanbags: 
-				span.question What's important for you right now?  
-					a.button(href='newbeanbag') Add New Beanbag 
-			
-			.beanbag-list
-				each beanbag, i in beanbaglist
-					.beanbag-item
-						h3.beanbag-title 
-							=beanbag.beanbagname
-						
-						ul.beans-list
-							each bean, b in beanbag.beans
-								-var name = bean.name
-								li.bean-item.bean(rel='#{name}')
-									a.bean-link.icon-bean1.bean-form(title="#{name}", href="http://en.wikipedia.org/wiki/#{name}")
-											span.bean-name
-												=bean.name
-											span.bean-value
-												=beancounts[name]
-										
-									
-
-										
-			a.button(href='newbeanbag') Add New Beanbag 
+  .content.beanbaglist.page.row
+    .row-inner
+      h2.page-title All Beanbags: 
+        span.question What's important for you right now? 
+          a.button(href='newbeanbag') Add New Beanbag
+      .beanbag-list
+        each beanbag, i in beanbaglist
+          .beanbag-item
+            h3.beanbag-title 
+              =beanbag.beanbagname
+              span
+                =bagcounts[beanbag.beanbagname]
+            ul.beans-list
+              each bean, b in beanbag.beans
+                -var name = bean.name
+                li.bean-item.bean(rel='#{name}')
+                  a.bean-link.icon-bean1.bean-form(title="#{name}", href="http://en.wikipedia.org/wiki/#{name}")
+                    span.bean-name
+                      =bean.name
+                    span.bean-value
+                      =beancounts[name]
+      p
+        =beancounts.length
+      ul
+        each n,c in beancounts
+          li
+            span.bean-name
+              =c
+            =n
+      a.button(href='newbeanbag') Add New Beanbag 
