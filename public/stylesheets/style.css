@@ -275,13 +275,15 @@ a.button, button.button {
     right: 0;
 }
 
+
 .beanbag-item {
-    background-color: #f8f8f8;
+    background-color: #FFFFFF;
+    border: 2em solid #F8F8F8;
     border-radius: 50%;
     display: block;
     float: left;
     margin: 1%;
-    padding: 3em;
+    padding: 3em 4em;
     text-align: center;
     width: 48%;
 }
@@ -321,18 +323,6 @@ a.bean-link {
     top: 0;
     color:#333;
     line-height:0.7em;
-}
-
-.bean-name {
-    color: #FFFFFF;
-    font-size: 0.17em;
-    left: 0;
-    position: absolute;
-    text-align: center;
-    top: 0;
-    width: 100%;
-    font-family:"ubuntu condensed",sans-serif;
-    text-transform:capitalize;
 }
 
 .bean-link a:hover {
@@ -441,68 +431,43 @@ a.bean-link:hover {
 	color:#8E946D;
 }
 
-.bean-item[rel="Health"],
-.bean-item[rel="Family"],
-.bean-item[rel="Friends"],
-.bean-item[rel="Food"],
-.bean-item[rel="Health food"],
-.bean-item[rel="Home"],
-.bean-item[rel="Love"],
-.bean-item[rel="House"]{
-	font-size:1.6em;
+.icon-radicle {
+    color: rgba(0, 0, 0, 0.4);
+    height: 0.5em;
+    left: 0;
+    position: absolute;
+    top: -0.15em;
+    width: 100%;
 }
 
-
-.bean-item[rel="Happiness"],
-.bean-item[rel="Happy"]
-
-{
-	font-size:1.4em;
+.bean-count {
+    color: #FFFFFF;
+    display: block;
+    font-family: "ubuntu", sans-serif;
+    font-size: 0.125em;
+    font-weight: bold;
+    position: absolute;
+    text-align: center;
+    top: 5em;
+    width: 100%;
 }
 
-.bean-item[rel="Learning"],
-.bean-item[rel="Education"],
-.bean-item[rel="Knowledge"],
-.bean-item[rel="Studying"],
-.bean-item[rel="School"],
-.bean-item[rel="Books"],
-.bean-item[rel="Fun"],
-.bean-item[rel="Enjoyment"],
-.bean-item[rel="Joy"],
-.bean-item[rel="Sunshine"],
-.bean-item[rel="Sun"],
-.bean-item[rel="Job"],
-.bean-item[rel="Career"],
-.bean-item[rel="Work"],
-.bean-item[rel="Nature"],
-.bean-item[rel="Music"],
-.bean-item[rel="Singing"],
-.bean-item[rel="Environment"],
-.bean-item[rel="Peace"],
-.bean-item[rel="Freedom"],
-.bean-item[rel="Child"],
-.bean-item[rel="Children"],
-.bean-item[rel="Grandchildren"],
-.bean-item[rel="Grandchild"],
-.bean-item[rel="Daddy"],
-.bean-item[rel="Daughter"],
-.bean-item[rel="Mum"],
-.bean-item[rel="Grandma"],
-.bean-item[rel="Grandpa"],
-.bean-item[rel="Sister"],
-.bean-item[rel="Dad"],
-.bean-item[rel="Boyfriend"],
-.bean-item[rel="Brother"],
-.bean-item[rel="Son"],
-.bean-item[rel="Wife"],
-.bean-item[rel="Husband"]{
-	font-size:1.2em;
+.bean-name {
+    color: #FFFFFF;
+    font-size: 0.17em;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: -0.35em;
+    width: 100%;
+    font-family:"ubuntu condensed",sans-serif;
+    text-transform:capitalize;
+    z-index: 1;
 }
 
-
-
-
-
+.bean-list .bean-name{
+	top:1.8em;
+}
 
 /*****Footer******/
 

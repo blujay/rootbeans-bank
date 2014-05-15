@@ -24,7 +24,7 @@ exports.beanbaglist = function(db) {
               if(bean.name in beancounts){
                 beancounts[bean.name]++;
               }else {
-                beancounts[bean.name]=1;	
+                beancounts[bean.name]=1;
               }
             }
           }
@@ -40,6 +40,7 @@ exports.beanbaglist = function(db) {
 
           res.render('beanbaglist', {
               "beanbaglist" : docs,
+              "beanlist" : docs,
               "beancounts" : beancounts,
               "bagcounts" : bagcounts
           });
@@ -154,21 +155,49 @@ exports.addbeanbag = function(db) {
 }
 
 
-exports.beanlist = function(db){
-	return function(req, res){
-		var collection = db.get('beanbag.beans');
-		collection.find({},{},function(e,docs){
-			res.render('beanlist', {
-				"beanlist" : docs
-			});
-		});
-	};
-};
-
 exports.newbean = function(req,res){
 	res.render('newbean', { title : 'Add New Bean!'});
 };
 
+exports.beanlist = function(db) {
+    return function(req, res) {
+      var collection = db.get('beanbag');
+      collection.find({},{ sort: {_id: -1 }},function(e,docs){
+
+          var beancounts={};
+          var bagcounts={};
+
+          console.log(docs.length);
+          for(var i=0;i<docs.length;i++){
+            var bag=docs[i];
+            console.log("bag.beans.length"+bag.beans.length);
+            for(var j=0;j<bag.beans.length;j++){
+              var bean=bag.beans[j];
+              if(bean.name in beancounts){
+                beancounts[bean.name]++;
+              }else {
+                beancounts[bean.name]=1;
+              }
+            }
+          }
+
+          for(var i=0;i<docs.length;i++){
+            var bag=docs[i];
+            bagcounts[bag.beanbagname]=0;
+            for(var j=0;j<bag.beans.length;j++){
+              var bean=bag.beans[j];
+              bagcounts[bag.beanbagname]+=beancounts[bean.name];
+            }
+          }
+
+          res.render('beanlist', {
+              "beanlist" : docs,
+              "beancounts" : beancounts,
+              "bagcounts" : bagcounts
+          });
+      });
+  };
+};
 
 exports.addbean = function(db) {
     return function(req, res) {

@@ -16,12 +16,16 @@ block content
             ul.beans-list
               each bean, b in beanbag.beans
                 -var name = bean.name
-                li.bean-item.bean(rel='#{name}')
+                -var beansize = beancounts[name]
+                li.bean-item.bean(rel='#{name}',style='font-size:'+ beansize/5 + 'em')
                   a.bean-link.icon-bean1.bean-form(title="#{name}", href="http://en.wikipedia.org/wiki/#{name}")
+                    .bean-value.icon-radicle
+                      span.bean-count
+                        =beancounts[name]
                     span.bean-name
                       =bean.name
-                        span.bean-value
-                          =beancounts[name]
+                    
+                  
       p
         =beancounts.length
       ul

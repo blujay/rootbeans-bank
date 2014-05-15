@@ -1,16 +1,22 @@
 extends layout
 
 block content
-    h2.
-        Bean List
-    h3. Scifest Brighton University 2014
-    dl
-        each bean, i in beanlist
-            dt
-                =bean.beanbag
-            dd
-                =bean.value
-            
-    a(href='newbean') Add New Bean 
-                
-                
+  .content.beanlist.page.row
+    .row-inner
+      h2.all beans
+        span.question What's important for you right now? 
+          a.button(href='newbeanbag') Add New Beanbag
+      ul.bean-list
+        each beanbag, i in beanlist
+          each bean, b in beanbag.beans
+            -var name = bean.name
+            -var beansize = beancounts[name]
+              li.bean-item.bean(rel='#{name}',style='font-size:'+ beansize/5 + 'em')
+                a.bean-link.icon-bean1.bean-form(title="#{name}", href="http://en.wikipedia.org/wiki/#{name}")
+                   .bean-value.icon-radicle
+                     span.bean-count
+                       =beancounts[name]
+                     span.bean-name
+                       =bean.name
+                   
+      a.button(href='newbeanbag') Add New Beanbag 
