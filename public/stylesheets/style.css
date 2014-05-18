@@ -432,23 +432,26 @@ a.bean-link:hover {
 }
 
 .icon-radicle {
+    bottom: 0.07em;
     color: rgba(0, 0, 0, 0.4);
+    font-size: 0.4em;
     height: 0.5em;
-    left: 0;
+    left: 0.05em;
     position: absolute;
-    top: -0.15em;
     width: 100%;
+    display:block;
 }
 
 .bean-count {
     color: #FFFFFF;
     display: block;
-    font-family: "ubuntu", sans-serif;
-    font-size: 0.125em;
+    font-family: "ubuntu",sans-serif;
+    font-size: 0.25em;
     font-weight: bold;
+    left: 0;
     position: absolute;
     text-align: center;
-    top: 5em;
+    top: 0.5em;
     width: 100%;
 }
 
