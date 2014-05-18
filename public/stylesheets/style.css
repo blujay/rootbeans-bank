@@ -289,9 +289,23 @@ a.button, button.button {
 }
 
 .beanbag-title {
-    color: #777777;
+    color: #333;
     font-weight: normal;
     margin: 0;
+}
+
+.bag-score,
+.bag-score p {
+	margin:0 0.25em;
+	color:#8E946D;
+}
+
+
+.bag-score span {
+    clear: both;
+    color: #8E946D;
+    display: block;
+    font-size: 3em;
 }
 
 .beans-list {
@@ -334,50 +348,56 @@ a.bean-link {
 }
 
 a.bean-link[title="Health"],
-a.bean-link[title="Wellbeing"],
-a.bean-link[title="Mental Health"] {
+a.bean-link[title="Mental Health"],
+a.bean-link[title="Death"],
+a.bean-link[title="Life"]{
    color:#D40000;
 }
 
 a.bean-link[title="Family"],
 a.bean-link[title="Children"],
-a.bean-link[title="Child"],
 a.bean-link[title="Daddy"],
 a.bean-link[title="Daughter"],
 a.bean-link[title="My daughter"],
 a.bean-link[title="Grandchildren"],
-a.bean-link[title="Grandma"],
 a.bean-link[title="Sister"],
 a.bean-link[title="Dad"],
 a.bean-link[title="Brother"],
-a.bean-link[title="Boyfriend"],
-a.bean-link[title="Gradpa"],
 a.bean-link[title="Mum"],
 a.bean-link[title="Wife"],
+a.bean-link[title="Mum and dad"],
 a.bean-link[title="Son"]{
    color:#97B800;
 }
 
 a.bean-link[title="Fun"],
-a.bean-link[title="Enjoyment"] {
+a.bean-link[title="Laughing"] {
    color:#EFB61D;
 }
 
-a.bean-link[title="Freedom"] {
+a.bean-link[title="Freedom"],
+a.bean-link[title="Time"],
+a.bean-link[title="Future"]{
 	color:#00CFB7;
 }
 
 a.bean-link[title="Friends"],
-a.bean-link[title="Friendship"] {
+a.bean-link[title="Friendship"],
+a.bean-link[title="People"],
+a.bean-link[title="Ben"] {
    color:#217867;
 }
 
 a.bean-link[title="Learning"],
 a.bean-link[title="Books"],
 a.bean-link[title="Education"],
-a.bean-link[title="Knowledge"],
 a.bean-link[title="School"],
-a.bean-link[title="Studying"]    {
+a.bean-link[title="Studying"],
+a.bean-link[title="Creativity"],
+a.bean-link[title="English"],
+a.bean-link[title="Stories"],
+a.bean-link[title="Science"],
+a.bean-link[title="Lego"]{
    color:#53BF94;
 }
 
@@ -386,33 +406,45 @@ a.bean-link[title="Health food"] {
    color:#CF5226;
 }
 
-a.bean-link[title="Love"] {
+a.bean-link[title="Love"],
+a.bean-link[title="Sex"]{
    color:red;
 }
 
 a.bean-link[title="Music"],
-a.bean-link[title="Singing"] {
+a.bean-link[title="Dancing"],
+a.bean-link[title="Singing"],
+a.bean-link[title="Walking"] {
    color:#4F5C7F;
 }
 
 a.bean-link[title="Nature"],
-a.bean-link[title="Environment"] {
+a.bean-link[title="Environment"],
+a.bean-link[title="Cats"],
+a.bean-link[title="Travel"],
+a.bean-link[title="Garden"] {
    color:#64AF57;
 }
 
 a.bean-link[title="Home"],
-a.bean-link[title="House"] {
+a.bean-link[title="Money"] {
    color:#9F597D;
 }
 
-a.bean-link[title="Peace"] {
+a.bean-link[title="Peace"],
+a.bean-link[title="Truth"],
+a.bean-link[title="Respect"],
+a.bean-link[title="Equality"],
+a.bean-link[title="Security"],
+a.bean-link[title="Safety"],
+a.bean-link[title="Tolerance"] {
    color:#8F7D7D;
 }
 
 
 a.bean-link[title="Happiness"],
 a.bean-link[title="Happy"],
-a.bean-link[title="Joy"]{
+a.bean-link[title="Hope"]{
    color:#FF0064;
 }
 
@@ -423,7 +455,9 @@ a.bean-link[title="Sun"] {
 
 a.bean-link[title="Work"],
 a.bean-link[title="Career"],
-a.bean-link[title="Job"]{
+a.bean-link[title="Job"],
+a.bean-link[title="Drive"],
+a.bean-link[title="Purpose"]{
 	color:#5F1D45;
 }
 

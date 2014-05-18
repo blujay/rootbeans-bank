@@ -9,15 +9,18 @@ block content
       .beanbag-list
         each beanbag, i in beanbaglist
           .beanbag-item
-            h3.beanbag-title 
-              =beanbag.beanbagname
-              span
-                =bagcounts[beanbag.beanbagname]
+            header.bag-info
+              h3.beanbag-title 
+                =beanbag.beanbagname
+              h4.bag-score
+                p this bag's collective value is 
+                  span
+                    =bagcounts[beanbag.beanbagname]
             ul.beans-list
               each bean, b in beanbag.beans
                 -var name = bean.name
                 -var beansize = beancounts[name]
-                li.bean-item.bean(rel='#{name}',style='font-size:'+ beansize/5 + 'em')
+                li.bean-item.bean(rel='#{name}',style='font-size:'+ beansize/10 + 'em')
                   a.bean-link.icon-bean1.bean-form(title="#{name}", href="http://en.wikipedia.org/wiki/#{name}")
                     .bean-value.icon-radicle
                       span.bean-count
@@ -26,12 +29,5 @@ block content
                       =bean.name
                     
                   
-      p
-        =beancounts.length
-      ul
-        each n,c in beancounts
-          li
-            span.bean-name
-              =c
-            =n
-      a.button(href='newbeanbag') Add New Beanbag 
+      
+      a.button(style="clear:both;float:left;display:block;", href='newbeanbag') Add New Beanbag 
