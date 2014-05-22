@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="800.83826"
+   height="600"
+   id="svg4732"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="beanbank-beanbag-mockup-dark.svg"
+   inkscape:export-filename="/home/jaya/Aptivate/Dropbox/rootinteractive/MaDMA/rootbeans app/working/beanbank-beanbag-dark-mockup.png"
+   inkscape:export-xdpi="90.01004"
+   inkscape:export-ydpi="90.01004">
+  <defs
+     id="defs4734">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath5824">
+      <rect
+         y="-19.434757"
+         x="505.26392"
+         height="250.51784"
+         width="296.98486"
+         id="rect5826"
+         style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.76126242;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         transform="matrix(0.69406788,-0.71990957,0.71990957,0.69406788,0,0)" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="425.2982"
+     inkscape:cy="312.71904"
+     inkscape:document-units="px"
+     inkscape:current-layer="g5836"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="744"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata4737">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-0.18765673,18.393992)">
+    <text
+       xml:space="preserve"
+       style="font-size:12.51723862px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#666666;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       x="42.99424"
+       y="216.36163"
+       id="text6582"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jaya/Aptivate/Dropbox/rootinteractive/MaDMA/rootbeans app/working/beanpod-mockup.svg.png"
+       inkscape:export-xdpi="90.01004"
+       inkscape:export-ydpi="90.01004"><tspan
+         sodipodi:role="line"
+         x="42.99424"
+         y="216.36163"
+         id="tspan5611" /></text>
+    <g
+       id="g5496"
+       transform="matrix(1.217801,0,0,1.217801,-15.614667,-40.460497)"
+       inkscape:export-filename="/home/jaya/Aptivate/Dropbox/rootinteractive/MaDMA/rootbeans-bank/public/images/rootbeans-beanbank-logo.png"
+       inkscape:export-xdpi="90.01004"
+       inkscape:export-ydpi="90.01004">
+      <text
+         inkscape:export-ydpi="90.01004"
+         inkscape:export-xdpi="90.01004"
+         inkscape:export-filename="/home/jaya/Aptivate/Dropbox/rootinteractive/MaDMA/rootbeans app/working/beanpod-mockup.svg.png"
+         sodipodi:linespacing="125%"
+         id="text6541"
+         y="80.12188"
+         x="135.0847"
+         style="font-size:34.77368164px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#217867;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu Medium"
+         xml:space="preserve"><tspan
+           style="font-size:34.77368164px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#217867;fill-opacity:1;font-family:Arvo;-inkscape-font-specification:Arvo Bold"
+           y="80.12188"
+           x="135.0847"
+           id="tspan6543"
+           sodipodi:role="line">Beanbank</tspan></text>
+      <text
+         inkscape:export-ydpi="90.01004"
+         inkscape:export-xdpi="90.01004"
+         inkscape:export-filename="/home/jaya/Aptivate/Dropbox/rootinteractive/MaDMA/rootbeans app/working/beanpod-mockup.svg.png"
+         sodipodi:linespacing="125%"
+         id="text6545"
+         y="102.42262"
+         x="136.23135"
+         style="font-size:16.62553787px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#8e946e;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+         xml:space="preserve"><tspan
+           y="102.42262"
+           x="136.23135"
+           id="tspan6547"
+           sodipodi:role="line">by rootinteractive</tspan></text>
+      <g
+         inkscape:export-ydpi="90.01004"
+         inkscape:export-xdpi="90.01004"
+         inkscape:export-filename="/home/jaya/Aptivate/Dropbox/rootinteractive/MaDMA/rootbeans app/working/beanpod-mockup.svg.png"
+         transform="matrix(2.0866453,0,0,2.0866453,-3599.7704,-365.70339)"
+         id="g6780">
+        <path
+           transform="matrix(0.95213802,0,0,0.95213802,87.54588,58.818758)"
+           sodipodi:nodetypes="czsssc"
+           inkscape:connector-curvature="0"
+           id="path6743"
+           d="M 1757.627,157.50347 C 1757.627,157.50347 1744.0735,156.38949 1748.3439,147.10634 C 1752.6142,137.82319 1777.2521,147.283 1781.5776,157.3178 C 1786.2192,168.08625 1781.5776,176.8124 1774.5224,176.62674 C 1767.4672,176.44108 1766.9103,163.07335 1763.5683,160.28841 C 1760.2263,157.50347 1757.627,157.50347 1757.627,157.50347 z"
+           style="color:#000000;fill:#99a073;fill-opacity:0.85882353;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <path
+           transform="matrix(0.95213802,0,0,0.95213802,87.54588,58.818758)"
+           sodipodi:nodetypes="zzsszsz"
+           inkscape:connector-curvature="0"
+           id="path6739"
+           d="M 1753.3329,176.69481 C 1749.8606,176.56915 1744.5862,176.89086 1741.1031,173.28481 C 1737.62,169.67876 1738.6979,163.39156 1742.9247,161.43179 C 1748.4414,158.87396 1750.3548,157.47963 1755.2134,148.22032 C 1759.2343,140.55763 1769.7691,140.4009 1774.3367,145.62104 C 1778.9043,150.84119 1779.6551,163.34398 1770.4766,170.68375 C 1763.8857,175.95424 1756.8052,176.82048 1753.3329,176.69481 z"
+           style="color:#000000;fill:#217867;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <path
+           transform="matrix(0.95213802,0,0,0.95213802,87.54588,58.818758)"
+           sodipodi:nodetypes="assssa"
+           inkscape:connector-curvature="0"
+           id="path6737"
+           d="M 1749.2723,177.3694 C 1746.187,173.69658 1743.8894,166.82491 1748.9274,162.98326 C 1754.6725,158.60244 1759.3005,165.2566 1764.7097,165.92941 C 1768.4128,166.39003 1775.0004,165.74086 1779.5354,168.64325 C 1784.1769,171.61385 1782.9232,178.95071 1777.1217,182.93928 C 1767.7698,189.36877 1755.3616,184.61815 1749.2723,177.3694 z"
+           style="color:#000000;fill:#97b800;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path6745"
+           d="M 1758.877,210.17755 C 1760.5042,208.3357 1760.5372,206.25008 1760.3263,205.10629 C 1759.5909,202.29942 1757.8225,201.78219 1757.8225,201.78219 C 1757.8225,201.78219 1756.0829,204.96903 1754.233,207.47157 C 1752.785,209.23069 1750.1293,210.95495 1750.1293,210.95495 C 1750.1293,210.95495 1751.8038,212.2248 1753.4888,212.19587 C 1755.1738,212.16694 1757.6114,211.61005 1758.877,210.17755 z"
+           style="opacity:0.56999966;color:#000000;fill:#071e19;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           sodipodi:nodetypes="ccccczc" />
+        <path
+           style="color:#000000;fill:#c6da6a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="M 1762.7153,220.10562 C 1764.8051,221.20923 1767.6376,220.83679 1768.6737,220.30846 C 1771.8091,218.6668 1771.9677,217.03844 1771.9677,217.03844 C 1771.9677,217.03844 1768.2037,216.68782 1765.5134,215.76457 C 1762.8231,214.84132 1762.3301,214.60738 1760.6511,213.71205 C 1759.9579,216.91585 1760.6255,219.00201 1762.7153,220.10562 z"
+           id="path6765"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="zcczcz" />
+      </g>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#97b800;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       x="27.792553"
+       y="558.67743"
+       id="text6862"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/jaya/Aptivate/Dropbox/rootinteractive/MaDMA/rootbeans app/working/beanpod-mockup.svg.png"
+       inkscape:export-xdpi="90.01004"
+       inkscape:export-ydpi="90.01004"><tspan
+         sodipodi:role="line"
+         id="tspan6864"
+         x="27.792553"
+         y="558.67743">about beanbank</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       x="30.304577"
+       y="228.0777"
+       id="text5512"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5514"
+         x="30.304577"
+         y="228.0777" /></text>
+    <g
+       id="g5592"
+       transform="translate(66.670068,-36.365492)" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       x="708.11694"
+       y="139.18428"
+       id="text5568"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5570"
+         x="708.11694"
+         y="139.18428" /></text>
+    <g
+       id="g5836"
+       transform="translate(17.172589,133.34013)">
+      <g
+         transform="matrix(1.1285594,0,0,1.1285594,-178.31929,122.89466)"
+         id="g5597">
+        <rect
+           ry="0"
+           rx="5.8471084"
+           y="188.95264"
+           x="225.3035"
+           height="35.38752"
+           width="183.35223"
+           id="rect5717"
+           style="color:#000000;fill:#97b800;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.76126242;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text5719"
+           y="211.72281"
+           x="237.5768"
+           style="font-size:18.28192329px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu Medium"
+           xml:space="preserve"><tspan
+             y="211.72281"
+             x="237.5768"
+             id="tspan5721"
+             sodipodi:role="line">Spill the beans</tspan></text>
+        <path
+           sodipodi:type="star"
+           style="fill:#ffffff;fill-opacity:1"
+           id="path4311"
+           sodipodi:sides="3"
+           sodipodi:cx="223.57143"
+           sodipodi:cy="427.85715"
+           sodipodi:r1="27.152254"
+           sodipodi:r2="13.576127"
+           sodipodi:arg1="0"
+           sodipodi:arg2="1.0471976"
+           inkscape:flatsided="true"
+           inkscape:rounded="0"
+           inkscape:randomized="0"
+           d="m 250.72368,427.85715 -40.72838,23.51454 0,-47.02908 z"
+           transform="matrix(0.51343184,0,0,0.41505484,268.6431,28.430627)"
+           inkscape:transform-center-x="-3.9332603" />
+      </g>
+      <flowRoot
+         transform="matrix(0.53157704,0,0,0.53157704,54.45877,-33.693811)"
+         style="font-size:26.33672905px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:112.00000048%;letter-spacing:0px;word-spacing:0px;fill:#4d4d4d;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+         id="flowRoot5741"
+         xml:space="preserve"><flowRegion
+           id="flowRegion5743"><rect
+             style="font-size:26.33672905px;line-height:112.00000048%;fill:#4d4d4d;fill-opacity:1"
+             y="209.07097"
+             x="39.39595"
+             height="490.01041"
+             width="395.1131"
+             id="rect5745" /></flowRegion><flowPara
+           id="flowPara5747"
+           style="font-size:26.33672905px;font-weight:500;-inkscape-font-specification:Ubuntu Medium" /><flowPara
+           id="flowPara4305"
+           style="font-size:26.33672905px;fill:#000000" /><flowPara
+           style="font-size:26.33672905px"
+           id="flowPara4313" /><flowPara
+           style="font-size:26.33672905px"
+           id="flowPara4315">We are inviting you to add 10 words, or &quot;beans&quot;,  as an answer to this question. </flowPara><flowPara
+           style="font-size:26.33672905px"
+           id="flowPara4528" /><flowPara
+           style="font-size:26.33672905px"
+           id="flowPara4534">Your beans are then given points based on what other visitors have said is important to them. </flowPara><flowPara
+           style="font-size:26.33672905px"
+           id="flowPara4554"></flowPara><flowPara
+           style="font-size:26.33672905px"
+           id="flowPara4556">You can then explore what other people have submitted and see how your &quot;beanbag&quot; compares to theirs  </flowPara><flowPara
+           style="font-size:26.33672905px"
+           id="flowPara4524" /><flowPara
+           style="font-size:26.33672905px"
+           id="flowPara4455" /></flowRoot>      <text
+         xml:space="preserve"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="210"
+         y="219.28571"
+         id="text4301"
+         sodipodi:linespacing="125%"
+         transform="translate(-16.984932,-151.73412)"><tspan
+           sodipodi:role="line"
+           id="tspan4303"></tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="358.57144"
+         y="295.71429"
+         id="text4317"
+         sodipodi:linespacing="125%"
+         transform="translate(-16.984932,-151.73412)"><tspan
+           sodipodi:role="line"
+           id="tspan4319"
+           x="358.57144"
+           y="295.71429" /></text>
+      <text
+         xml:space="preserve"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="270"
+         y="200"
+         id="text4321"
+         sodipodi:linespacing="125%"
+         transform="translate(-16.984932,-151.73412)"><tspan
+           sodipodi:role="line"
+           id="tspan4323"
+           x="270"
+           y="200"> </tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:25.24952888px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#97b800;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+         x="35.30677"
+         y="56.364441"
+         id="text4447"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4449"
+           x="35.30677"
+           y="56.364441">What's important</tspan><tspan
+           sodipodi:role="line"
+           x="35.30677"
+           y="87.926346"
+           id="tspan4473">to you?</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="459.61942"
+         y="152.50243"
+         id="text4469"
+         sodipodi:linespacing="125%"
+         transform="translate(-16.984932,-151.73412)"><tspan
+           sodipodi:role="line"
+           id="tspan4471"></tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4475"
+         y="19.51026"
+         x="35.810795"
+         style="font-size:12.33755302px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;color:#000000;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans Bold"
+         xml:space="preserve"><tspan
+           y="19.51026"
+           x="35.810795"
+           sodipodi:role="line"
+           id="tspan4483">Here's a simple question</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="30.492239"
+         y="159.36227"
+         id="text4558"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4560"
+           x="30.492239"
+           y="159.36227">1</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4562"
+         y="223.00188"
+         x="30.492237"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="223.00188"
+           x="30.492237"
+           id="tspan4564"
+           sodipodi:role="line">2</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="30.492239"
+         y="296.74304"
+         id="text4566"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4568"
+           x="30.492239"
+           y="296.74304">3</tspan></text>
+    </g>
+    <rect
+       rx="0"
+       y="-488.22504"
+       x="345.19644"
+       height="70.267525"
+       width="439.02084"
+       id="rect5815"
+       style="opacity:1;color:#000000;fill:#217867;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.76126242000000000;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       transform="matrix(0.37234136,0.38620446,-0.38620446,0.37234136,373.07355,-9.0087395)"
+       clip-path="url(#clipPath5824)"
+       inkscape:export-filename="/home/jaya/Aptivate/Dropbox/rootinteractive/MaDMA/rootbeans-bank/public/images/ribbon.png"
+       inkscape:export-xdpi="90.01004"
+       inkscape:export-ydpi="90.01004" />
+    <text
+       inkscape:export-ydpi="90.01004"
+       inkscape:export-xdpi="90.01004"
+       inkscape:export-filename="/home/jaya/Aptivate/Dropbox/rootinteractive/MaDMA/rootbeans-bank/public/images/ribbon.png"
+       sodipodi:linespacing="125%"
+       id="text5811"
+       y="-509.10916"
+       x="495.10449"
+       style="font-size:13.72981834px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       xml:space="preserve"
+       transform="matrix(0.69852839,0.71558234,-0.71558234,0.69852839,0,0)"><tspan
+         y="-509.10916"
+         x="495.10449"
+         id="tspan5813"
+         sodipodi:role="line">playful little data</tspan></text>
+    <g
+       id="g4327"
+       transform="matrix(1.3561854,0,0,1.3561854,-156.81335,-64.195475)">
+      <path
+         inkscape:export-ydpi="200"
+         inkscape:export-xdpi="200"
+         inkscape:export-filename="/home/jaya/Aptivate/Dropbox/rootinteractive/MaDMA/rootbeans-bank/public/images/beanbag-holder-image.png"
+         sodipodi:nodetypes="ssssss"
+         style="color:#000000;fill:#d40000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="path5941"
+         d="m 461.449,190.6452 c 14.7932,-19.06113 84.44651,-42.54061 128.28191,4.73187 8.0047,8.63224 11.6837,17.60794 12.1332,26.01743 1.4001,26.19315 -28.5315,46.89339 -56.678,34.61393 -24.1289,-10.52674 -35.4805,4.48972 -59.15031,1.99195 -34.1107,-3.59959 -50.4013,-34.09284 -24.5868,-67.35518 z"
+         inkscape:connector-curvature="0" />
+      <path
+         inkscape:export-ydpi="200"
+         inkscape:export-xdpi="200"
+         inkscape:export-filename="/home/jaya/Aptivate/Dropbox/rootinteractive/MaDMA/rootbeans-bank/public/images/beanbag-holder-image.png"
+         style="opacity:0.56999966;color:#000000;fill:#1a1a1a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         d="m 523.66981,227.45694 c -10.7937,0.0524 -20.4633,4.62243 -23.5952,8.65785 -6.7444,8.69019 -5.846,16.86027 -0.3755,21.509 15.4026,-2.36597 26.4837,-9.89381 45.4797,-1.6064 1.2923,0.5638 2.5837,1.05381 3.8804,1.48122 2.5475,-2.58623 4.0609,-6.0377 3.8595,-9.80527 -0.1692,-3.1651 -1.5562,-6.55633 -4.5688,-9.80526 -7.2181,-7.78401 -16.285,-10.47188 -24.6801,-10.43114 z"
+         id="path5947"
+         inkscape:connector-curvature="0" />
+      <g
+         inkscape:export-ydpi="200"
+         inkscape:export-xdpi="200"
+         inkscape:export-filename="/home/jaya/Aptivate/Dropbox/rootinteractive/MaDMA/rootbeans-bank/public/images/beanbag-holder-image.png"
+         id="g5949"
+         transform="matrix(0.66759259,0,0,0.66759259,228.64551,-158.71598)">
+        <text
+           sodipodi:linespacing="125%"
+           id="text5951"
+           y="606.75452"
+           x="428.69107"
+           style="font-size:24.81124115px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+           xml:space="preserve"><tspan
+             y="606.75452"
+             x="428.69107"
+             id="tspan5953"
+             sodipodi:role="line">40</tspan></text>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:40.21216583px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+         x="523.97681"
+         y="229.83333"
+         id="text5845-2"
+         sodipodi:linespacing="125%"
+         transform="matrix(0.99382152,-0.03619692,0.01699796,1.0055978,0,0)"><tspan
+           id="tspan5847-7"
+           sodipodi:role="line"
+           x="523.97681"
+           y="229.83333"
+           style="font-size:33.56692886px;text-align:center;text-anchor:middle">?</tspan></text>
+    </g>
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#dfe1d3;stroke-width:21.66495895;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path4325"
+       sodipodi:cx="575.78693"
+       sodipodi:cy="292.91364"
+       sodipodi:rx="231.32494"
+       sodipodi:ry="231.32494"
+       d="m 807.11186,292.91364 a 231.32494,231.32494 0 1 1 -462.64987,0 231.32494,231.32494 0 1 1 462.64987,0 z"
+       transform="matrix(0.94570556,0,0,1.1269283,7.711093,-36.380116)" />
+    <g
+       id="g4336"
+       transform="matrix(1.3889671,0,0,1.3889671,-243.53901,18.206819)">
+      <g
+         inkscape:export-ydpi="200"
+         inkscape:export-xdpi="200"
+         inkscape:export-filename="/home/jaya/Aptivate/Dropbox/rootinteractive/MaDMA/rootbeans-bank/public/images/beanbag-holder-image.png"
+         id="g5923"
+         transform="matrix(0.46415695,0,0,0.46415695,530.14221,-38.606046)">
+        <path
+           inkscape:connector-curvature="0"
+           d="m 186.60563,539.20525 c 22.15889,-28.55203 126.494,-63.72241 192.15595,7.08796 11.99027,12.93041 17.50123,26.37527 18.17452,38.97202 2.09712,39.23523 -42.73794,70.24254 -84.89906,51.84888 -36.14319,-15.76821 -53.14703,6.72524 -88.60243,2.98377 -51.09516,-5.39188 -75.49705,-51.06832 -36.82898,-100.89263 z"
+           id="path5925"
+           style="color:#000000;fill:#88aa00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           sodipodi:nodetypes="ssssss" />
+        <path
+           id="path5931"
+           transform="translate(73.8698,211.97128)"
+           d="m 205.9375,382.375 c -16.16815,0.0785 -30.65251,6.92403 -35.34375,12.96875 -10.1025,13.01721 -8.75693,25.25533 -0.5625,32.21875 23.07193,-3.54403 39.67049,-14.82012 68.125,-2.40625 1.93577,0.84452 3.87026,1.57853 5.8125,2.21875 3.816,-3.87396 6.0829,-9.04398 5.78125,-14.6875 -0.25341,-4.74106 -2.33095,-9.82086 -6.84375,-14.6875 -10.81207,-11.65982 -24.39353,-15.68603 -36.96875,-15.625 z"
+           style="opacity:0.56999966;color:#000000;fill:#1a1a1a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           inkscape:connector-curvature="0" />
+        <g
+           transform="translate(-162.11543,15.890286)"
+           id="g5933">
+          <text
+             xml:space="preserve"
+             style="font-size:24.81124115px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+             x="428.69107"
+             y="606.75452"
+             id="text5935"
+             sodipodi:linespacing="125%"><tspan
+               sodipodi:role="line"
+               id="tspan5937"
+               x="428.69107"
+               y="606.75452">28</tspan></text>
+        </g>
+      </g>
+      <text
+         transform="matrix(0.99382152,-0.03619692,0.01699796,1.0055978,0,0)"
+         sodipodi:linespacing="125%"
+         id="text3493"
+         y="251.80856"
+         x="660.87769"
+         style="font-size:40.21216583px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+         xml:space="preserve"><tspan
+           style="font-size:33.56692886px;text-align:center;text-anchor:middle"
+           y="251.80856"
+           x="660.87769"
+           sodipodi:role="line"
+           id="tspan3495">?</tspan></text>
+    </g>
+    <g
+       id="g4367"
+       transform="matrix(0.43719164,0,0,0.43719164,217.57949,227.38306)">
+      <g
+         inkscape:export-ydpi="200"
+         inkscape:export-xdpi="200"
+         inkscape:export-filename="/home/jaya/Aptivate/Dropbox/rootinteractive/MaDMA/rootbeans-bank/public/images/beanbag-holder-image.png"
+         id="g5973"
+         transform="matrix(0.42843441,0,0,0.42843441,238.39681,-65.106365)">
+        <path
+           sodipodi:nodetypes="ssssss"
+           style="color:#000000;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path5975"
+           d="m 499.98022,875.01844 c 12.12825,-15.62742 69.23408,-34.87725 105.1729,3.87946 6.56264,7.0772 9.57896,14.436 9.94748,21.33059 1.14782,21.47466 -23.39181,38.44595 -46.46789,28.37845 -19.78228,-8.63039 -29.08901,3.68101 -48.49486,1.63314 -27.96595,-2.95116 -41.32186,-27.95126 -20.15763,-55.22164 z"
+           inkscape:connector-curvature="0" />
+        <path
+           inkscape:connector-curvature="0"
+           style="opacity:0.56999966;color:#000000;fill:#1a1a1a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 550.99238,905.19883 c -8.84933,0.0429 -16.77707,3.78974 -19.34473,7.09817 -5.52942,7.12472 -4.79294,13.82306 -0.30788,17.63432 12.62798,-1.93971 21.71289,-8.1115 37.28693,-1.31704 1.05951,0.46231 2.11831,0.86403 3.18136,1.21447 2.08862,-2.12041 3.32936,-4.95009 3.16426,-8.03894 -0.1387,-2.59496 -1.2758,-5.37529 -3.7458,-8.03893 -5.91778,-6.38178 -13.35134,-8.58546 -20.23414,-8.55205 z"
+           id="path5981" />
+        <g
+           id="g5983"
+           transform="matrix(0.54733096,0,0,0.54733096,309.11438,588.59196)">
+          <text
+             sodipodi:linespacing="125%"
+             id="text5985"
+             y="605.35309"
+             x="434.29666"
+             style="font-size:24.81124115px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+             xml:space="preserve"><tspan
+               y="605.35309"
+               x="434.29666"
+               sodipodi:role="line"
+               id="tspan5987">5</tspan></text>
+        </g>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:26.31729317px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+         x="471.74261"
+         y="335.43713"
+         id="text3497"
+         sodipodi:linespacing="125%"
+         transform="matrix(0.99382152,-0.03619692,0.01699796,1.0055978,0,0)"><tspan
+           id="tspan3499"
+           sodipodi:role="line"
+           x="471.74261"
+           y="335.43713"
+           style="font-size:21.96824455px;text-align:center;text-anchor:middle">?</tspan></text>
+    </g>
+    <g
+       id="g4357"
+       transform="matrix(0.43719164,0,0,0.43719164,216.25959,227.38306)">
+      <g
+         inkscape:export-ydpi="200"
+         inkscape:export-xdpi="200"
+         inkscape:export-filename="/home/jaya/Aptivate/Dropbox/rootinteractive/MaDMA/rootbeans-bank/public/images/beanbag-holder-image.png"
+         transform="matrix(0.42843441,0,0,0.42843441,317.6069,-65.106365)"
+         id="g5955">
+        <path
+           inkscape:connector-curvature="0"
+           d="m 499.98022,875.01844 c 12.12825,-15.62742 69.23408,-34.87725 105.1729,3.87946 6.56264,7.0772 9.57896,14.436 9.94748,21.33059 1.14782,21.47466 -23.39181,38.44595 -46.46789,28.37845 -19.78228,-8.63039 -29.08901,3.68101 -48.49486,1.63314 -27.96595,-2.95116 -41.32186,-27.95126 -20.15763,-55.22164 z"
+           id="path5957"
+           style="color:#000000;fill:#666666;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           sodipodi:nodetypes="ssssss" />
+        <path
+           id="path5965"
+           d="m 550.99238,905.19883 c -8.84933,0.0429 -16.77707,3.78974 -19.34473,7.09817 -5.52942,7.12472 -4.79294,13.82306 -0.30788,17.63432 12.62798,-1.93971 21.71289,-8.1115 37.28693,-1.31704 1.05951,0.46231 2.11831,0.86403 3.18136,1.21447 2.08862,-2.12041 3.32936,-4.95009 3.16426,-8.03894 -0.1387,-2.59496 -1.2758,-5.37529 -3.7458,-8.03893 -5.91778,-6.38178 -13.35134,-8.58546 -20.23414,-8.55205 z"
+           style="opacity:0.56999966;color:#000000;fill:#1a1a1a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           inkscape:connector-curvature="0" />
+        <g
+           transform="matrix(0.54733096,0,0,0.54733096,309.11438,588.59196)"
+           id="g5967">
+          <text
+             xml:space="preserve"
+             style="font-size:24.81124115px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+             x="434.29666"
+             y="605.35309"
+             id="text5969"
+             sodipodi:linespacing="125%"><tspan
+               id="tspan5971"
+               sodipodi:role="line"
+               x="434.29666"
+               y="605.35309">7</tspan></text>
+        </g>
+      </g>
+      <text
+         transform="matrix(0.99382152,-0.03619692,0.01699796,1.0055978,0,0)"
+         sodipodi:linespacing="125%"
+         id="text3501"
+         y="339.0686"
+         x="552.89661"
+         style="font-size:26.31729317px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+         xml:space="preserve"><tspan
+           style="font-size:21.96824455px;text-align:center;text-anchor:middle"
+           y="339.0686"
+           x="552.89661"
+           sodipodi:role="line"
+           id="tspan3503">?</tspan></text>
+    </g>
+    <g
+       id="g4346"
+       transform="translate(-123.2386,44.44671)">
+      <g
+         inkscape:export-ydpi="200"
+         inkscape:export-xdpi="200"
+         inkscape:export-filename="/home/jaya/Aptivate/Dropbox/rootinteractive/MaDMA/rootbeans-bank/public/images/beanbag-holder-image.png"
+         transform="translate(-1320.8622,-136.07105)"
+         id="g6593">
+        <g
+           id="g5989"
+           transform="matrix(0.48748915,0,0,0.48748915,2104.4746,242.66165)">
+          <path
+             sodipodi:nodetypes="ssssss"
+             style="color:#000000;fill:#217867;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             id="path5991"
+             d="m -352.34629,363.17672 c 22.15889,-28.55203 126.494,-63.72241 192.15595,7.08797 11.99027,12.93041 17.50123,26.37527 18.17452,38.97201 2.09712,39.23523 -42.73794,70.24255 -84.89906,51.84889 -36.14319,-15.76821 -53.14703,6.72523 -88.60243,2.98377 -51.09516,-5.39188 -75.49705,-51.06833 -36.82898,-100.89264 z"
+             inkscape:connector-curvature="0" />
+          <path
+             style="opacity:0.56999966;color:#000000;fill:#1a1a1a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+             d="m -259.14462,418.31775 c -16.16815,0.0785 -30.65251,6.92403 -35.34375,12.96875 -10.1025,13.01721 -8.75693,25.25533 -0.5625,32.21875 23.07193,-3.54403 39.67049,-14.82012 68.125,-2.40625 1.93577,0.84452 3.87026,1.57853 5.8125,2.21875 3.816,-3.87396 6.0829,-9.04398 5.78125,-14.6875 -0.25341,-4.74106 -2.33095,-9.82086 -6.84375,-14.6875 -10.81207,-11.65982 -24.39353,-15.68603 -36.96875,-15.625 z"
+             id="path5997"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g5999"
+           transform="matrix(0.48748915,0,0,0.48748915,1762.7044,164.07746)">
+          <text
+             sodipodi:linespacing="125%"
+             id="text6001"
+             y="606.75452"
+             x="428.69107"
+             style="font-size:24.81124115px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+             xml:space="preserve"><tspan
+               y="606.75452"
+               x="428.69107"
+               id="tspan6003"
+               sodipodi:role="line">23</tspan></text>
+        </g>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:47.15960312px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+         x="656.08411"
+         y="325.39459"
+         id="text3505"
+         sodipodi:linespacing="125%"
+         transform="matrix(0.99382152,-0.03619692,0.01699796,1.0055978,0,0)"><tspan
+           id="tspan3507"
+           sodipodi:role="line"
+           x="656.08411"
+           y="325.39459"
+           style="font-size:39.36627197px;text-align:center;text-anchor:middle">?</tspan></text>
+    </g>
+    <g
+       id="g4417"
+       transform="matrix(0.77940849,0,0,0.77940849,16.86403,199.99652)">
+      <g
+         inkscape:export-ydpi="200"
+         inkscape:export-xdpi="200"
+         inkscape:export-filename="/home/jaya/Aptivate/Dropbox/rootinteractive/MaDMA/rootbeans-bank/public/images/beanbag-holder-image.png"
+         transform="matrix(0.46415695,0,0,0.46415695,785.25851,3.748013)"
+         id="g5857">
+        <path
+           inkscape:connector-curvature="0"
+           d="m -318.36014,788.44259 c 17.45458,-22.49046 99.63945,-50.1942 151.36143,5.5832 9.44475,10.18529 13.78574,20.77582 14.31609,30.6983 1.65191,30.90565 -33.66472,55.33013 -66.87507,40.84139 -28.47003,-12.42062 -41.86397,5.29753 -69.79223,2.35035 -40.2477,-4.24721 -59.4691,-40.22658 -29.01022,-79.47324 z"
+           id="path5859"
+           style="color:#000000;fill:#d4aa00;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           sodipodi:nodetypes="ssssss" />
+        <path
+           id="path5865"
+           d="m -244.94509,831.87724 c -12.73567,0.0618 -24.14501,5.45406 -27.84031,10.21546 -7.95775,10.25367 -6.89784,19.89371 -0.44308,25.37878 18.17378,-2.79161 31.24848,-11.6738 53.66213,-1.89544 1.52481,0.66529 3.04861,1.24346 4.57851,1.74775 3.00587,-3.05155 4.79151,-7.12397 4.5539,-11.56936 -0.19961,-3.73457 -1.83609,-7.73593 -5.39083,-11.56936 -8.51668,-9.18446 -19.21481,-12.35591 -29.12032,-12.30783 z"
+           style="opacity:0.56999966;color:#000000;fill:#1a1a1a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           inkscape:connector-curvature="0" />
+        <g
+           transform="matrix(0.787701,0,0,0.787701,-593.04807,376.22687)"
+           id="g5867">
+          <text
+             xml:space="preserve"
+             style="font-size:24.81124115px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+             x="428.69107"
+             y="606.75452"
+             id="text5869"
+             sodipodi:linespacing="125%"><tspan
+               id="tspan5871"
+               sodipodi:role="line"
+               x="428.69107"
+               y="606.75452">15</tspan></text>
+        </g>
+      </g>
+      <text
+         transform="matrix(0.99382152,-0.03619692,0.01699796,1.0055978,0,0)"
+         sodipodi:linespacing="125%"
+         id="text3509"
+         y="406.27307"
+         x="668.61798"
+         style="font-size:35.53525925px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+         xml:space="preserve"><tspan
+           style="font-size:29.66290092px;text-align:center;text-anchor:middle"
+           y="406.27307"
+           x="668.61798"
+           sodipodi:role="line"
+           id="tspan3511">?</tspan></text>
+    </g>
+    <g
+       id="g4377"
+       transform="matrix(1.09487,0,0,1.09487,-96.11251,9.8282795)">
+      <g
+         inkscape:export-ydpi="200"
+         inkscape:export-xdpi="200"
+         inkscape:export-filename="/home/jaya/Aptivate/Dropbox/rootinteractive/MaDMA/rootbeans-bank/public/images/beanbag-holder-image.png"
+         transform="matrix(0.46415695,0,0,0.46415695,726.10181,39.167114)"
+         id="g5841">
+        <path
+           sodipodi:nodetypes="ssssss"
+           style="color:#000000;fill:#782121;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path5843"
+           d="m -578.5062,690.19353 c 22.15889,-28.55203 126.494,-63.72241 192.15595,7.08796 11.99027,12.93041 17.50123,26.37527 18.17452,38.97202 2.09712,39.23523 -42.73794,70.24254 -84.89906,51.84888 -36.14319,-15.76821 -53.14703,6.72524 -88.60243,2.98377 -51.09516,-5.39188 -75.49705,-51.06832 -36.82898,-100.89263 z"
+           inkscape:connector-curvature="0" />
+        <path
+           inkscape:connector-curvature="0"
+           style="opacity:0.56999966;color:#000000;fill:#1a1a1a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m -485.30453,745.33456 c -16.16815,0.0785 -30.65251,6.92403 -35.34375,12.96875 -10.1025,13.01721 -8.75693,25.25533 -0.5625,32.21875 23.07193,-3.54403 39.67049,-14.82012 68.125,-2.40625 1.93577,0.84452 3.87026,1.57853 5.8125,2.21875 3.816,-3.87396 6.0829,-9.04398 5.78125,-14.6875 -0.25341,-4.74106 -2.33095,-9.82086 -6.84375,-14.6875 -10.81207,-11.65982 -24.39353,-15.68603 -36.96875,-15.625 z"
+           id="path5849" />
+        <g
+           id="g5851"
+           transform="translate(-927.22726,166.87856)">
+          <text
+             sodipodi:linespacing="125%"
+             id="text5853"
+             y="606.75452"
+             x="428.69107"
+             style="font-size:24.81124115px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+             xml:space="preserve"><tspan
+               y="606.75452"
+               x="428.69107"
+               id="tspan5855"
+               sodipodi:role="line">25</tspan></text>
+        </g>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:35.53525925px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+         x="497.10593"
+         y="390.86539"
+         id="text3513"
+         sodipodi:linespacing="125%"
+         transform="matrix(0.99382152,-0.03619692,0.01699796,1.0055978,0,0)"><tspan
+           id="tspan3515"
+           sodipodi:role="line"
+           x="497.10593"
+           y="390.86539"
+           style="font-size:29.66290092px;text-align:center;text-anchor:middle">?</tspan></text>
+    </g>
+    <g
+       id="g4387"
+       transform="matrix(0.61249508,0,0,0.61249508,276.80832,150.84342)">
+      <g
+         inkscape:export-ydpi="200"
+         inkscape:export-xdpi="200"
+         inkscape:export-filename="/home/jaya/Aptivate/Dropbox/rootinteractive/MaDMA/rootbeans-bank/public/images/beanbag-holder-image.png"
+         id="g5905"
+         transform="matrix(0.38432958,0,0,0.38432958,229.11934,103.26226)">
+        <path
+           sodipodi:nodetypes="ssssss"
+           style="color:#000000;fill:#d45500;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path5907"
+           d="m 612.75427,934.07196 c 17.45458,-22.49046 99.63945,-50.1942 151.36143,5.5832 9.44475,10.18529 13.78574,20.77582 14.31609,30.6983 1.65191,30.90564 -33.66472,55.33014 -66.87507,40.84134 -28.47003,-12.42057 -41.86397,5.2976 -69.79223,2.3504 -40.2477,-4.2472 -59.4691,-40.22658 -29.01022,-79.47324 z"
+           inkscape:connector-curvature="0" />
+        <path
+           inkscape:connector-curvature="0"
+           style="opacity:0.56999966;color:#000000;fill:#1a1a1a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 686.16932,977.50661 c -12.73567,0.0618 -24.14501,5.45406 -27.84031,10.21546 -7.95775,10.25367 -6.89784,19.89373 -0.44308,25.37873 18.17378,-2.7916 31.24848,-11.6738 53.66213,-1.8954 1.52481,0.6653 3.04861,1.2435 4.57851,1.7478 3.00587,-3.0516 4.79151,-7.124 4.5539,-11.5694 -0.19961,-3.73457 -1.83609,-7.73593 -5.39083,-11.56936 -8.51668,-9.18446 -19.21481,-12.35591 -29.12032,-12.30783 z"
+           id="path5915" />
+        <g
+           id="g5917"
+           transform="matrix(0.787701,0,0,0.787701,338.06634,521.85624)">
+          <text
+             sodipodi:linespacing="125%"
+             id="text5919"
+             y="606.75452"
+             x="428.69107"
+             style="font-size:24.81124115px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+             xml:space="preserve"><tspan
+               y="606.75452"
+               x="428.69107"
+               sodipodi:role="line"
+               id="tspan5921">10</tspan></text>
+        </g>
+      </g>
+      <text
+         transform="matrix(0.99382152,-0.03619692,0.01699796,1.0055978,0,0)"
+         sodipodi:linespacing="125%"
+         id="text3517"
+         y="488.52646"
+         x="486.91589"
+         style="font-size:28.56065178px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+         xml:space="preserve"><tspan
+           style="font-size:23.84087944px;text-align:center;text-anchor:middle"
+           y="488.52646"
+           x="486.91589"
+           sodipodi:role="line"
+           id="tspan3519">?</tspan></text>
+    </g>
+    <g
+       id="g4397"
+       transform="matrix(0.69954497,0,0,0.69954497,118.39177,120.29688)">
+      <g
+         inkscape:export-ydpi="200"
+         inkscape:export-xdpi="200"
+         inkscape:export-filename="/home/jaya/Aptivate/Dropbox/rootinteractive/MaDMA/rootbeans-bank/public/images/beanbag-holder-image.png"
+         transform="matrix(0.42843441,0,0,0.42843441,352.3917,75.225427)"
+         id="g5873">
+        <path
+           sodipodi:nodetypes="ssssss"
+           style="color:#000000;fill:#666666;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           id="path5875"
+           d="m 499.98022,875.01844 c 12.12825,-15.62742 69.23408,-34.87725 105.1729,3.87946 6.56264,7.0772 9.57896,14.436 9.94748,21.33059 1.14782,21.47466 -23.39181,38.44595 -46.46789,28.37845 -19.78228,-8.63039 -29.08901,3.68101 -48.49486,1.63314 -27.96595,-2.95116 -41.32186,-27.95126 -20.15763,-55.22164 z"
+           inkscape:connector-curvature="0" />
+        <path
+           inkscape:connector-curvature="0"
+           style="opacity:0.56999966;color:#000000;fill:#1a1a1a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           d="m 550.99238,905.19883 c -8.84933,0.0429 -16.77707,3.78974 -19.34473,7.09817 -5.52942,7.12472 -4.79294,13.82306 -0.30788,17.63432 12.62798,-1.93971 21.71289,-8.1115 37.28693,-1.31704 1.05951,0.46231 2.11831,0.86403 3.18136,1.21447 2.08862,-2.12041 3.32936,-4.95009 3.16426,-8.03894 -0.1387,-2.59496 -1.2758,-5.37529 -3.7458,-8.03893 -5.91778,-6.38178 -13.35134,-8.58546 -20.23414,-8.55205 z"
+           id="path5881" />
+        <g
+           id="g5883"
+           transform="matrix(0.54733096,0,0,0.54733096,309.11438,588.59196)">
+          <text
+             sodipodi:linespacing="125%"
+             id="text5885"
+             y="605.35309"
+             x="434.29666"
+             style="font-size:24.81124115px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+             xml:space="preserve"><tspan
+               y="605.35309"
+               x="434.29666"
+               sodipodi:role="line"
+               id="tspan5887">3</tspan></text>
+        </g>
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:21.6132164px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+         x="583.90552"
+         y="478.01733"
+         id="text3521"
+         sodipodi:linespacing="125%"
+         transform="matrix(0.99382152,-0.03619692,0.01699796,1.0055978,0,0)"><tspan
+           id="tspan3523"
+           sodipodi:role="line"
+           x="583.90552"
+           y="478.01733"
+           style="font-size:18.04153824px;text-align:center;text-anchor:middle">?</tspan></text>
+    </g>
+    <g
+       id="g4407"
+       transform="matrix(0.43719164,0,0,0.43719164,318.26581,245.75382)">
+      <g
+         inkscape:export-ydpi="200"
+         inkscape:export-xdpi="200"
+         inkscape:export-filename="/home/jaya/Aptivate/Dropbox/rootinteractive/MaDMA/rootbeans-bank/public/images/beanbag-holder-image.png"
+         transform="matrix(0.42843441,0,0,0.42843441,361.913,51.147144)"
+         id="g5889">
+        <path
+           inkscape:connector-curvature="0"
+           d="m 707.6103,931.21906 c 12.12825,-15.62742 69.23408,-34.87725 105.1729,3.87946 6.56264,7.0772 9.57896,14.436 9.94748,21.33059 1.14782,21.47466 -23.39181,38.44595 -46.46789,28.37845 -19.78228,-8.63039 -29.08901,3.68101 -48.49486,1.63314 -27.96595,-2.95116 -41.32186,-27.95126 -20.15763,-55.22164 z"
+           id="path5891"
+           style="color:#000000;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           sodipodi:nodetypes="ssssss" />
+        <path
+           id="path5897"
+           d="m 758.62246,961.39945 c -8.84933,0.0429 -16.77707,3.78974 -19.34473,7.09817 -5.52942,7.12472 -4.79294,13.82306 -0.30788,17.63432 12.62798,-1.93971 21.71289,-8.1115 37.28693,-1.31704 1.05951,0.46231 2.11831,0.86403 3.18136,1.21447 2.08862,-2.12041 3.32936,-4.95009 3.16426,-8.03894 -0.1387,-2.59496 -1.2758,-5.37529 -3.7458,-8.03893 -5.91778,-6.38178 -13.35134,-8.58546 -20.23414,-8.55205 z"
+           style="opacity:0.56999966;color:#000000;fill:#1a1a1a;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+           inkscape:connector-curvature="0" />
+        <g
+           transform="matrix(0.54733096,0,0,0.54733096,516.74446,644.79258)"
+           id="g5899">
+          <text
+             xml:space="preserve"
+             style="font-size:24.81124115px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+             x="434.29666"
+             y="605.35309"
+             id="text5901"
+             sodipodi:linespacing="125%"><tspan
+               id="tspan5903"
+               sodipodi:role="line"
+               x="434.29666"
+               y="605.35309">2</tspan></text>
+        </g>
+      </g>
+      <text
+         transform="matrix(0.99382152,-0.03619692,0.01699796,1.0055978,0,0)"
+         sodipodi:linespacing="125%"
+         id="text3525"
+         y="480.92715"
+         x="684.47742"
+         style="font-size:21.6132164px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+         xml:space="preserve"><tspan
+           style="font-size:18.04153824px;text-align:center;text-anchor:middle"
+           y="480.92715"
+           x="684.47742"
+           sodipodi:role="line"
+           id="tspan3527">?</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:21.72675514px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="483.61227"
+       y="93.961082"
+       id="text4427"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4429"
+         x="483.61227"
+         y="93.961082">Transformers</tspan><tspan
+         sodipodi:role="line"
+         x="483.61227"
+         y="121.11953"
+         id="tspan4433" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:24.98550797px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#99a073;fill-opacity:1;stroke:none;font-family:Sans"
+       x="461.30237"
+       y="113.82277"
+       id="text4437"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4439"
+         x="461.30237"
+         y="113.82277"
+         style="font-size:11.24347878px;font-weight:bold;fill:#99a073;fill-opacity:1;-inkscape-font-specification:Sans Bold">this bag's collective value is </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#99a073;fill-opacity:1;stroke:none;font-family:Sans"
+       x="523.44666"
+       y="152.29117"
+       id="text4443"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4445"
+         x="523.44666"
+         y="152.29117"
+         style="font-weight:bold;-inkscape-font-specification:Sans Bold">83</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:10.77387142px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#99a073;fill-opacity:1;stroke:none;font-family:Sans"
+       x="524.09393"
+       y="70.487129"
+       id="text4461"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4463"
+         x="524.09393"
+         y="70.487129">just added</tspan></text>
+  </g>
+</svg>
