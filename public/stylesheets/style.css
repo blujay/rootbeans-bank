@@ -115,7 +115,7 @@ body {
 /*****Header******/
 
 .header-site {
-	background-color:#4D4D4D;
+	background-color:#fff;
 }
 
 .header-site > .row-inner {
@@ -164,6 +164,10 @@ span.connector {
 
 .content h2 {
 	color:#8E946D;
+}
+
+.page-title {
+	display:none;
 }
 
 .block h2:first-child {
@@ -278,7 +282,7 @@ a.button, button.button {
 
 .beanbag-item {
     background-color: #FFFFFF;
-    border: 2em solid #F8F8F8;
+    border: 2em solid #dfe1d3;
     border-radius: 50%;
     display: block;
     float: left;
@@ -313,6 +317,7 @@ a.button, button.button {
 	margin:0;
 	padding:0;
 	text-align:center;
+	margin-bottom:3em;
 }
 
 .bean-item {

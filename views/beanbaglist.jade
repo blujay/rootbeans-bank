@@ -4,7 +4,7 @@ block content
   .content.beanbaglist.page.row
     .row-inner
       h2.page-title All Beanbags: 
-        span.question What's important for you right now? 
+        span.question What's important to you? 
           a.button(href='newbeanbag') Add New Beanbag
       .beanbag-list
         each beanbag, i in beanbaglist
@@ -13,21 +13,21 @@ block content
               h3.beanbag-title 
                 =beanbag.beanbagname
               h4.bag-score
-                p this bag's collective value is 
+                p this bag is worth  
                   span
                     =bagcounts[beanbag.beanbagname]
             ul.beans-list
               each bean, b in beanbag.beans
                 -var name = bean.name
                 -var beansize = beancounts[name]
-                li.bean-item.bean(rel='#{name}',style='font-size:'+ beansize/10 + 'em')
+                li.bean-item.bean(rel='#{name}',style='font-size:'+ ((beansize/16)+ 0.5) + 'em')
                   a.bean-link.icon-bean1.bean-form(title="#{name}", href="http://en.wikipedia.org/wiki/#{name}")
                     .bean-value.icon-radicle
                       span.bean-count
                         =beancounts[name]
                     span.bean-name
                       =bean.name
-                    
-                  
-      
+            a.tweet(title="tweet this beanbag's score", href="https://twitter.com/intent/tweet?text=I+scored+" + bagcounts[beanbag.beanbagname] + "+points+with+beanbag+" + '"' + beanbag.beanbagname + '"' + "+at+%23Beanbank+by+%40rootbeans.+What's+your+bag+worth%3F+find+out+at+http%3A%2F%2Fctt.ec%2FIXHd9%2B")
+              img(width="109", height="83", border="0" alt="Tweet this beanbag score" src="http://www.rootinteractive.com/assets/tweet-bird-rootinteractive.gif")          
+             
       a.button(style="clear:both;float:left;display:block;", href='newbeanbag') Add New Beanbag 
