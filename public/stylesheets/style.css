@@ -794,7 +794,7 @@ a.bean-link:hover {
 }
 
 @media screen and (max-width: 350px) {
-	.row-inner {padding:0 0.5em;}
+	.row-inner {padding:0;}
 	.row-inner > p {padding:0 1em;}
     .leadin {text-align:center;display:block;};
     .block.content {padding-top:1em;}
@@ -805,8 +805,13 @@ a.bean-link:hover {
     .block.question {padding: 2em 0.25em;}
     h2,h3,legend {text-align:center;}
     .enter-bean {font-size: 16em;}
-    .beanbaglist .row-inner {padding: 1em;}
-    .beanbag-item {font-size: 0.9em;margin: 0 0 2em;padding:5em 3em 4em;width:90%;}
+    .beanbaglist .row-inner {padding: 0em;}
+    
+	.beanbag-item {
+	    margin: 0 0 2em;
+	    padding: 5em 2em 4em;
+	    width: auto;
+	}
 	.tweet {top: -1.5em;}
 	.tweet > img {bottom: -6.5em;}
 }
