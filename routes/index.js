@@ -7,6 +7,10 @@ exports.index = function(req,res){
 	res.render('index', { title : 'Rootbeans Beanbank'});
 };
 
+exports.about = function(req,res){
+	res.render('about', { title : 'About Beanbank'});
+};
+
 exports.beanbaglist = function(db) {
     return function(req, res) {
       var collection = db.get('beanbag');

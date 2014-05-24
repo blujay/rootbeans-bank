@@ -36,6 +36,7 @@ if ('development' == app.get('env')) {
 }
 
 app.get('/', routes.index);
+app.get('/about', routes.about);
 app.get('/beanbaglist', routes.beanbaglist(db));
 app.get('/beanlist', routes.beanlist(db));
 app.get('/newbeanbag', routes.newbeanbag);

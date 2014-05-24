@@ -4,7 +4,7 @@ html {
 }
 
 body {
-	background-color:#4D4D4D;
+	background-color:#555;
 	font-size:1.5em;
 	font-family:"ubuntu", sans-serif;
 }
@@ -83,8 +83,8 @@ body {
 }
 .row-inner {
     margin: 0 auto 2em auto;
-    max-width: 120em;
-    min-width: 29em;
+    max-width: 1280px;
+    min-width: 290px;
     padding: 0 3em;
 }
 
@@ -95,8 +95,8 @@ body {
 .info-panel {
     display: block;
     float: left;
-    margin: 2em 0;
-    width: 35%;
+    margin: 0;
+    width: 40%;
 }
 
 .beanbag-holder {
@@ -113,10 +113,6 @@ body {
 }
 
 /*****Header******/
-
-.header-site {
-	background-color:#fff;
-}
 
 .header-site > .row-inner {
 	margin-bottom:0;
@@ -142,12 +138,14 @@ body {
 /*****Content******/
 
 .row.content {
-	background-color:#ffffff;
+	background-color:#fff;
 }
 	.row.content > .row-inner {
 		min-height:15em;
 		display:block;
 		position:relative;
+		width:100%;
+		float:left;
 	}
 
 span.connector {
@@ -162,42 +160,82 @@ span.connector {
     width: 100%;
 }
 
-.content h2 {
-	color:#8E946D;
+.leadin {
+    font-size:1.3em;
+    color:#666;
 }
 
 .page-title {
-	display:none;
+    color: #88AA00;
+    margin-top: 1em;
+    text-align:center;
 }
+
+.page-title > span {
+    color: #8E946D;
+    font-size: 0.8em;
+    font-weight: normal !important;
+}
+
+
 
 .block h2:first-child {
 	margin-top:0;
 }
 
 a.button, button.button {
-    background:none;
-    background-color: #88AA00;
+    background: none repeat scroll 0 0 #88AA00;
     border: medium none;
     color: #FFFFFF;
+    cursor: pointer;
     display: inline-block;
-    font-weight: bold;
-    font-size:1.1em;
-    cursor:pointer;
+    font-size: 1.5em;
+    font-weight: normal;
     margin-bottom: 0.5em;
-    padding: 0.8em 1em;
+    padding: 0.5em 1em;
 }
 
 /*****Info panel******/
 
+.sub-header {
+    font-size:3em;
+    margin-bottom:0.4em;
+    margin-top:0.4em;
+    color:#88AA00;
+}
+
 .block.question {
-    padding: 2em;
+    padding: 2em 2em 2em 0;
     margin-right:3em;
 }
 
-.block.question {
-	background-color: #fafafa;
+.intro {
+    font-size:1.2em;
+    color:#888888;
 }
 
+.question-description {
+    list-style: none outside none;
+    padding: 0;
+    margin-bottom:2em;
+}
+
+.question-description li {
+    color: #555;
+    font-size: 1.1em;
+    font-weight: normal;
+    margin-bottom: 1.2em;
+    padding-left: 3em;
+    position: relative;
+}
+
+.question-description li span {
+    font-size: 2.5em;
+    font-weight: bold;
+    left: 0;
+    position: absolute;
+    color:#888;
+}
 
 .beanbag-user-actions {
     display:inline;
@@ -231,13 +269,30 @@ a.button, button.button {
 
 .beanbag-user-actions .add-beanbag {
     display: table-cell;
-    width: 50%;
     padding-right:1em;
 }
-	.add-beanbag .button {
-		display:block;
-		
-	}
+
+.add-beanbag .button {
+	display:block;
+	
+}
+
+.add-beanbag .button:hover {
+    background-color:#888888;
+}
+
+.button.add-bean:after {
+    border-bottom: 0.5em solid transparent;
+    border-left: 1em solid white;
+    border-top: 0.5em solid transparent;
+    content: "";
+    display: block;
+    float: right;
+    height: 0;
+    margin-left: 1em;
+    transform: scale(1.1);
+    width: 0;
+}
 
 .beanbag-user-actions .search-beanbag {
 	display:table-cell;
@@ -246,6 +301,7 @@ a.button, button.button {
 
 
 /*****Beanbag Placeholder******/
+
 .beanbag-placeholder {
 	display:block;
 	position: relative;
@@ -265,6 +321,13 @@ a.button, button.button {
 
 /*****View beans******/
 
+.beanbaglist.content {
+	background-color:#f8f8f8;
+}
+
+.beanbaglist .intro {text-align:center;line-height:1.3em;}
+.beanbaglist .intro a {clear:both; text-align:center;display:block;}
+
 .page-title .question {
     color: #555555;
     font-size: 0.8em;
@@ -282,12 +345,15 @@ a.button, button.button {
 
 .beanbag-item {
     background-color: #FFFFFF;
-    border: 2em solid #dfe1d3;
+    -moz-border-radius:50%;
+    -o-border-radius:50%;
+    -webkit-border-radius:50%;
+    border: 50px solid #F5F5F5;
     border-radius: 50%;
     display: block;
     float: left;
     margin: 1%;
-    padding: 3em 4em;
+    padding: 3em 4em 4em;
     text-align: center;
     width: 48%;
 }
@@ -309,7 +375,21 @@ a.button, button.button {
     clear: both;
     color: #8E946D;
     display: block;
-    font-size: 3em;
+    font-size: 4em;
+    margin-top: 0.2em;
+}
+
+.tweet {
+    position:relative;
+    display:inline-block;
+    text-align:center;
+}
+
+.tweet > img {
+    bottom: -5em;
+    clear: both;
+    display: block;
+    position: absolute;
 }
 
 .beans-list {
@@ -517,9 +597,6 @@ a.bean-link:hover {
 	display:block;
 	min-height:15em;
 }
-.footer-site {
-	background-color:#4D4D4D;
-}
 
 .nav-footer {
     display: block;
@@ -530,4 +607,114 @@ a.bean-link:hover {
     color: #C6DA6A;
     padding: 0.5em;
 }
+
+@media screen and (max-width: 1280px) {
+    .beanbag-holder {
+        margin-bottom: 0;
+        margin-top: 2em;
+    }
+    span.connector{
+        top:10em;
+    }
+    
+    .block.question {
+        padding-right:0;
+        font-size:0.9em;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .beanbag-holder {
+        margin-bottom: 0;
+        margin-top: 2em;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .row-inner {
+        padding: 0 0.5em 0 2em;
+    }
+    .block.question {
+        font-size: 0.9em;
+        margin-right: 0;
+        padding: 2em 2em 2em 0;
+    }
+    span.connector{
+        top:14em;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    
+    .info-panel,
+    .beanbag-holder,
+    .beanbag-placeholder{
+        width:100%;
+    }
+        
+    .row-inner {
+        padding: 0 1em;
+    }
+    
+    .beanbag-holder {
+        left: 0;
+        position: absolute;
+        top: 11em;
+    }
+    
+    span.connector{
+        top:25em;
+    }
+    
+    .beanbag-placeholder {
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: 80% auto;
+    }
+    
+    .leadin{
+        text-align:center;
+    }
+    
+    .block.question {
+        font-size: 0.9em;
+        margin-right: 0;
+        padding: 4em 2em 2em;
+    }
+    
+    .sub-header {
+        padding-bottom:95%;
+        font-size:4em;
+        text-align:center;
+    }
+    
+    .question-description,
+    .intro{
+        padding:0 2em;
+    }
+    
+    .beanbag-user-actions {margin-left:2em;}
+
+}
+
+
+@media screen and (max-width: 550px) {
+    .sub-header {font-size:3em;padding-bottom:110%;}
+    .beanbag-holder{top:9em;}
+    .block.question {padding: 2em 2em 2em;}
+    .intro, .question-description {padding:0;}
+}
+
+@media screen and (max-width: 350px) {
+    .site-title img {width:100%;}
+    .leadin {text-align:center;display:block;};
+    .block.content {padding-top:1em;}
+    .sub-header {font-size:3em;padding-bottom:130%;}
+    .beanbag-holder{top:12em;}
+    .beanbag-placeholder{background-size:100%;background-position:0.25em center;}
+    .intro, .question-description {padding:1em;}
+    .block.question {padding: 2em 0.25em;}
+}
+
+
 

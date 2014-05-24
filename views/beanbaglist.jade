@@ -3,9 +3,8 @@ extends layout
 block content
   .content.beanbaglist.page.row
     .row-inner
-      h2.page-title All Beanbags: 
-        span.question What's important to you? 
-          a.button(href='newbeanbag') Add New Beanbag
+      h2.page-title Thank You for taking part!  
+      p.intro <strong>Here are all the beans including YOURS</strong>. Remember this webpage so you can get back. <br />Tell your friends about beanbank (they might bump up your score)<a href="http://beanbank.rootbeans.com/beanbaglist"> http://beanbank.rootbeans.com/beanbaglist</a>
       .beanbag-list
         each beanbag, i in beanbaglist
           .beanbag-item
@@ -13,7 +12,7 @@ block content
               h3.beanbag-title 
                 =beanbag.beanbagname
               h4.bag-score
-                p this bag is worth  
+                p beanbag score 
                   span
                     =bagcounts[beanbag.beanbagname]
             ul.beans-list
@@ -27,7 +26,10 @@ block content
                         =beancounts[name]
                     span.bean-name
                       =bean.name
-            a.tweet(title="tweet this beanbag's score", href="https://twitter.com/intent/tweet?text=I+scored+" + bagcounts[beanbag.beanbagname] + "+points+with+beanbag+" + '"' + beanbag.beanbagname + '"' + "+at+%23Beanbank+by+%40rootbeans.+What's+your+bag+worth%3F+find+out+at+http%3A%2F%2Fctt.ec%2FIXHd9%2B")
+            a.tweet(title="tweet this beanbag's score", href="https://twitter.com/intent/tweet?text=Beanbag+" + '"' + beanbag.beanbagname + '"' + "+has+a+current+score+of+" + bagcounts[beanbag.beanbagname] + "+points+at+%23Beanbank+by+%40rootbeans.+What's+your+bag+worth%3F+find+out+at+http%3A%2F%2Fctt.ec%2FIXHd9%2B") Tweet this bag
               img(width="109", height="83", border="0" alt="Tweet this beanbag score" src="http://www.rootinteractive.com/assets/tweet-bird-rootinteractive.gif")          
              
       a.button(style="clear:both;float:left;display:block;", href='newbeanbag') Add New Beanbag 
+      p <strong>Beanbag scores are increasing as new people add their own.</strong> 
+      p Feel free to add new ones and if you want to get back to this page and check on your beanbag
+      p don't forget to tweet about it as the score goes up! If you're not happy with your bag, <a href="http://beanbank.rootbeans.com/newbeanbag">add another one.</a>
