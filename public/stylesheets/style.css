@@ -48,7 +48,7 @@ dd {
 
 fieldset {
     border:none;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     padding:0;
 }
 
@@ -59,7 +59,7 @@ fieldset > legend {
     padding: 0;
 }
 	
-fieldset > h3 {}
+fieldset > h3 {margin:0;}
 
 * {
  -webkit-box-sizing:border-box;
@@ -87,9 +87,9 @@ body {
 }
 .row-inner {
     margin: 0 auto 2em auto;
-    max-width: 1280px;
+    max-width: 960px;
     min-width: 290px;
-    padding: 0 3em;
+    padding: 0 2em;
 }
 
 .header-site {
@@ -144,12 +144,15 @@ body {
 .row.content {
 	background-color:#fff;
 }
+
+.content.newbean.page.row {
+    text-align: center;
+}
 	.row.content > .row-inner {
 		min-height:15em;
 		display:block;
 		position:relative;
 		width:100%;
-		float:left;
 	}
 
 span.connector {
@@ -243,9 +246,10 @@ a.button, button.button {
 }
 
 .beanbag-user-actions {
-    display:inline;
-    position:relative;
-    font-size:0.9em;
+    display: inline;
+    font-size: 0.9em;
+    margin-left: 3.7em;
+    position: relative;
 }
 
 #search-box {
@@ -336,7 +340,7 @@ a.button, button.button {
     overflow: hidden;
     position: relative;
     width: 1em;
-    margin:0.1em;
+    margin:0.05em;
 }
 
 .enter-bean .icon-bean1 {
@@ -365,9 +369,9 @@ a.button, button.button {
 }
 
 .beanbagname {
-    background: none repeat scroll 0 0 #333333;
     display: block;
     font-size: 1.2em;
+    margin:0;
 }
 
 .input-beanbag-name {
@@ -379,13 +383,13 @@ a.button, button.button {
 }
 
 #form-add-beanbag #btnSubmit {
-	font-size:1em;
+	font-size:1.5em;
 }
 
 /*****View beans******/
 
 .beanbaglist.content {
-	background-color:#f8f8f8;
+	background-color:#f2f2f2;
 }
 
 .beanbaglist .intro {text-align:center;line-height:1.3em;}
@@ -411,12 +415,11 @@ a.button, button.button {
     -moz-border-radius:50%;
     -o-border-radius:50%;
     -webkit-border-radius:50%;
-    border: 50px solid #F5F5F5;
     border-radius: 50%;
     display: block;
     float: left;
     margin: 1%;
-    padding: 3em 4em 4em;
+    padding: 5em 4em 4em;
     text-align: center;
     width: 48%;
 }
@@ -709,6 +712,17 @@ a.bean-link:hover {
     .beanbag-user-actions {
 	    margin-left: 3.5em;
 	}
+	
+	.beanbaglist .row-inner {
+		padding:1em;
+	}
+	
+	.beanbag-item {
+	    float: none;
+	    margin: 0;
+	    width: 100%;
+	    margin-bottom:2em;
+	}
 }
 
 @media screen and (max-width: 640px) {
@@ -780,6 +794,8 @@ a.bean-link:hover {
 }
 
 @media screen and (max-width: 350px) {
+	.row-inner {padding:0 0.5em;}
+	.row-inner > p {padding:0 1em;}
     .leadin {text-align:center;display:block;};
     .block.content {padding-top:1em;}
     .sub-header {font-size:3em;padding-bottom:110%;}
@@ -788,6 +804,11 @@ a.bean-link:hover {
     .intro, .question-description {padding:1em;}
     .block.question {padding: 2em 0.25em;}
     h2,h3,legend {text-align:center;}
+    .enter-bean {font-size: 16em;}
+    .beanbaglist .row-inner {padding: 1em;}
+    .beanbag-item {font-size: 0.9em;margin: 0 0 2em;padding:5em 3em 4em;width:90%;}
+	.tweet {top: -1.5em;}
+	.tweet > img {bottom: -6.5em;}
 }
 
 

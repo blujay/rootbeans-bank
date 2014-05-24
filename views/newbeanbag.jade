@@ -4,15 +4,12 @@ block content
 	.content.newbean.page.row
 		.row-inner
 			h2 What's important to you?
-			p We'd like to invite you to participate in helping find out what people care about. 
-				|It should only take 5 minutes. On each bean put a single word that means something 
-				|important to you. Something that you think about a lot, do often, 
-				|,value, worry or care about. It can be anything - as you'll find out with the results!
+			p It can be anything big or small - as you'll find out with the results!
 				
 				form#form-add-beanbag(name="addbeanbag",method="post",action="/addbeanbag")
 					
 					fieldset.fieldset-add-beans
-						legend Put one word on each bean
+						h3 Put one word on each bean
 						p.enter-bean
 							span.icon-bean1
 							input.bean.input.bean1name(type="text", name="bean1name", id="bean1name")
@@ -44,11 +41,11 @@ block content
 							span.icon-bean1
 							input.bean.input.bean10name(type="text", name="bean10name", id="bean10name")
 					fieldset.fieldset-beanbag-info
-					h3 That's it! 
-						strong now name your beanbag
-						p.beanbagname
-							input.input-beanbag-name(type="text", placeholder="short and sweet", name="beanbagname", id="beanbagname")
+						h3 That's it! 
+							strong now name your beanbag
+							p.beanbagname
+								input.input-beanbag-name(type="text", name="beanbagname", id="beanbagname")
 						
-						button#btnSubmit.button(type="submit") Add your beanbag and see the results!
+					button#btnSubmit.button(type="submit") Add your beanbag and see the results!
 					
 				
