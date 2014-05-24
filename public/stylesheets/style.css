@@ -16,6 +16,7 @@ h1 {
 
 h2 {
 	font-size:2em;
+	color:#97B800;
 }
 h3 {
 	font-size:1.8em;
@@ -46,16 +47,19 @@ dd {
 }
 
 fieldset {
-    border: 4px solid #EEEEEE;
+    border:none;
     margin-bottom: 2em;
-    padding: 2em;
+    padding:0;
 }
-	fieldset > legend {
-		font-size:1.5em;
-		font-weight:bold;
-	}
+
+fieldset > legend {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 1em 0;
+    padding: 0;
+}
 	
-	fieldset > h3 {}
+fieldset > h3 {}
 
 * {
  -webkit-box-sizing:border-box;
@@ -102,8 +106,8 @@ body {
 .beanbag-holder {
     display: block;
     float: right;
-    margin-bottom: -15%;
-    margin-top: -15%;
+    margin-bottom: -5%;
+    margin-top: -5%;
     position: relative;
     width: 60%;
 }
@@ -235,6 +239,7 @@ a.button, button.button {
     left: 0;
     position: absolute;
     color:#888;
+    top:-0.18em;
 }
 
 .beanbag-user-actions {
@@ -317,6 +322,64 @@ a.button, button.button {
 #form-add-beanbag label {
     display: block;
     margin-bottom: 0.25em;
+}
+
+.fieldset-add-beans {
+	text-align:center;
+}
+
+.enter-bean {
+    display: inline-block;
+    font-size: 18em;
+    height: 0.65em;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    width: 1em;
+    margin:0.1em;
+}
+
+.enter-bean .icon-bean1 {
+    position: relative;
+    top: -0.18em;
+    color:#97B800;
+}
+
+
+.enter-bean .bean.input {
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.2);
+    border: medium none;
+    border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    -moz-border-radius: 0.5em;
+    -o-border-radius: 0.5em;
+    color: #FFFFFF;
+    display: block;
+    font-size: 0.12em;
+    left: 10%;
+    padding: 0.2em;
+    position: absolute;
+    text-align: center;
+    top: 1.8em;
+    width: 80%;
+}
+
+.beanbagname {
+    background: none repeat scroll 0 0 #333333;
+    display: block;
+    font-size: 1.2em;
+}
+
+.input-beanbag-name {
+    border: 3px solid #BBBBBB;
+    font-size: 0.5em;
+    margin: 1em;
+    padding: 0.25em 0.5em;
+    width: 85%;
+}
+
+#form-add-beanbag #btnSubmit {
+	font-size:1em;
 }
 
 /*****View beans******/
@@ -642,6 +705,10 @@ a.bean-link:hover {
     span.connector{
         top:14em;
     }
+    
+    .beanbag-user-actions {
+	    margin-left: 3.5em;
+	}
 }
 
 @media screen and (max-width: 640px) {
@@ -651,6 +718,12 @@ a.bean-link:hover {
     .beanbag-placeholder{
         width:100%;
     }
+    
+    .header-site {
+    	text-align:center;
+    }
+    
+    .site-title img {width:100%;max-width:347px;}
         
     .row-inner {
         padding: 0 1em;
@@ -659,7 +732,7 @@ a.bean-link:hover {
     .beanbag-holder {
         left: 0;
         position: absolute;
-        top: 11em;
+        top: 14em;
     }
     
     span.connector{
@@ -674,6 +747,7 @@ a.bean-link:hover {
     
     .leadin{
         text-align:center;
+        display:block;
     }
     
     .block.question {
@@ -693,27 +767,27 @@ a.bean-link:hover {
         padding:0 2em;
     }
     
-    .beanbag-user-actions {margin-left:2em;}
+    .beanbag-user-actions {margin-left:3.5em;}
 
 }
 
 
 @media screen and (max-width: 550px) {
-    .sub-header {font-size:3em;padding-bottom:110%;}
-    .beanbag-holder{top:9em;}
-    .block.question {padding: 2em 2em 2em;}
+    .sub-header {font-size:3em;padding-bottom:120%;}
+    .beanbag-holder{top:11em;}
+    .block.question {padding: 0em 2em 2em;}
     .intro, .question-description {padding:0;}
 }
 
 @media screen and (max-width: 350px) {
-    .site-title img {width:100%;}
     .leadin {text-align:center;display:block;};
     .block.content {padding-top:1em;}
-    .sub-header {font-size:3em;padding-bottom:130%;}
+    .sub-header {font-size:3em;padding-bottom:110%;}
     .beanbag-holder{top:12em;}
     .beanbag-placeholder{background-size:100%;background-position:0.25em center;}
     .intro, .question-description {padding:1em;}
     .block.question {padding: 2em 0.25em;}
+    h2,h3,legend {text-align:center;}
 }
 
 

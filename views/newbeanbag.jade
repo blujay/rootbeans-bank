@@ -3,38 +3,52 @@ extends layout
 block content
 	.content.newbean.page.row
 		.row-inner
-			h2 Question: What's important for you right now?
-			p	Ever stopped to ask what is really important to you? it could be a value, people or thing that you can't imagine being without or that you think you need in your life. Create a beanbag and put your important beans in (one word on each)
+			h2 What's important to you?
+			p We'd like to invite you to participate in helping find out what people care about. 
+				|It should only take 5 minutes. On each bean put a single word that means something 
+				|important to you. Something that you think about a lot, do often, 
+				|,value, worry or care about. It can be anything - as you'll find out with the results!
 				
 				form#form-add-beanbag(name="addbeanbag",method="post",action="/addbeanbag")
 					
 					fieldset.fieldset-add-beans
-						legend Name some beans
-						p.bean1
+						legend Put one word on each bean
+						p.enter-bean
+							span.icon-bean1
 							input.bean.input.bean1name(type="text", name="bean1name", id="bean1name")
-						p.bean2
+						p.enter-bean
+							span.icon-bean1
 							input.bean.input.bean2name(type="text", name="bean2name", id="bean2name")
-						p.bean3
+						p.enter-bean
+							span.icon-bean1
 							input.bean.input.bean3name(type="text", name="bean3name", id="bean3name")
-						p.bean4
+						p.enter-bean
+							span.icon-bean1
 							input.bean.input.bean4name(type="text", name="bean4name", id="bean4name")
-						p.bean5
+						p.enter-bean
+							span.icon-bean1
 							input.bean.input.bean5name(type="text", name="bean5name", id="bean5name")
-						p.bean6
+						p.enter-bean
+							span.icon-bean1
 							input.bean.input.bean6name(type="text", name="bean6name", id="bean6name")
-						p.bean7
+						p.enter-bean
+							span.icon-bean1
 							input.bean.input.bean7name(type="text", name="bean7name", id="bean7name")
-						p.bean8
+						p.enter-bean
+							span.icon-bean1
 							input.bean.input.bean8name(type="text", name="bean8name", id="bean8name")
-						p.bean9
+						p.enter-bean
+							span.icon-bean1
 							input.bean.input.bean9name(type="text", name="bean9name", id="bean9name")
-						p.bean10
+						p.enter-bean
+							span.icon-bean1
 							input.bean.input.bean10name(type="text", name="bean10name", id="bean10name")
 					fieldset.fieldset-beanbag-info
-						legend Name your beanbag
+					h3 That's it! 
+						strong now name your beanbag
 						p.beanbagname
 							input.input-beanbag-name(type="text", placeholder="short and sweet", name="beanbagname", id="beanbagname")
 						
-						button#btnSubmit.button(type="submit") Add your beanbag!
+						button#btnSubmit.button(type="submit") Add your beanbag and see the results!
 					
 				
