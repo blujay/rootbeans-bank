@@ -20,7 +20,7 @@ block content
                 -var name = bean.name
                 -var beansize = beancounts[name]
                 li.bean-item.bean(rel='#{name}',style='font-size:'+ ((beansize/16)+ 0.5) + 'em')
-                  a.bean-link.icon-bean1.bean-form(title="#{name}", href="http://en.wikipedia.org/wiki/#{name}")
+                  a.bean-link.icon-bean1.bean-form(title="#{name}", href="http://en.wikipedia.org/wiki/#{name}",rel='#{beancounts[name]}')
                     .bean-value.icon-radicle
                       span.bean-count
                         =beancounts[name]

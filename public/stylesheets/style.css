@@ -498,6 +498,22 @@ a.bean-link {
     color:#8E946D;
 }
 
+.bean-name {
+    color: #FFFFFF;
+    font-size: 0.17em;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: -0.35em;
+    width: 100%;
+    font-family:"ubuntu condensed",sans-serif;
+    text-transform:capitalize;
+}
+
+.bean-list .bean-name{
+	top:1.8em;
+}
+
 a.bean-link[title="Health"],
 a.bean-link[title="Death"],
 a.bean-link[title="Life"]{
@@ -554,6 +570,7 @@ a.bean-link[title="Technology"]{
 
 a.bean-link[title="Food"],
 a.bean-link[title="Health food"],
+a.bean-link[title="Wine"],
 a.bean-link[title="Sleep"] {
    color:#FF7A0F;
 }
@@ -608,19 +625,21 @@ a.bean-link[title="Purpose"]{
 	color:#5F1D45;
 }
 
+
 a.bean-link:hover {
 	color:#8E946D;
 }
 
 .icon-radicle {
-    bottom: 0.07em;
+    bottom: 0.0635em;
     color: rgba(0, 0, 0, 0.4);
+    display: block;
     font-size: 0.4em;
     height: 0.5em;
-    left: 0.05em;
+    left: 0.045em;
     position: absolute;
     width: 100%;
-    display:block;
+    z-index: 5;
 }
 
 .bean-count {
@@ -636,22 +655,7 @@ a.bean-link:hover {
     width: 100%;
 }
 
-.bean-name {
-    color: #FFFFFF;
-    font-size: 0.17em;
-    left: 0;
-    position: absolute;
-    text-align: center;
-    top: -0.35em;
-    width: 100%;
-    font-family:"ubuntu condensed",sans-serif;
-    text-transform:capitalize;
-    z-index: 1;
-}
 
-.bean-list .bean-name{
-	top:1.8em;
-}
 
 /*****Footer******/
 
@@ -725,6 +729,57 @@ a.bean-link:hover {
 		.tweet > img {
 			margin-left:1em;
 	}
+}
+@media screen and (max-width: 780px) and (-webkit-min-device-pixel-ratio : 2) {
+	
+	a.bean-link[rel="1"] {
+		font-size:6em;
+	}
+	a.bean-link[rel="1"] .icon-radicle {
+		bottom:1.3em;
+	}
+	
+	a.bean-link[rel="1"] .bean-count{
+		font-size:5px;
+		top:0.25em;
+	}
+	a.bean-link[rel="1"] .bean-name {
+		font-size:7px;
+	}
+	
+	a.bean-link[rel="2"] .bean-name {
+		font-size:7px;
+	}
+	a.bean-link[rel="2"] .bean-count{
+		font-size:6px;
+		top:0.25em;
+	}
+	a.bean-link[rel="2"] .icon-radicle {
+		bottom:1em;
+	}
+	a.bean-link[rel="4"] .icon-radicle {
+		bottom:0.6em;
+	}
+	a.bean-link[rel="4"] .bean-count{
+		top:0.1em;
+		font-size:7px;
+	}
+	a.bean-link[rel="5"] .icon-radicle {
+		bottom:0.35em;
+	}
+	a.bean-link[rel="5"] .bean-count{
+		top:0.1em;
+		font-size:7px;
+	}
+	a.bean-link[rel="6"] .icon-radicle {
+		bottom:0.2em;
+	}
+	a.bean-link[rel="6"] .bean-count{
+		font-size:7px;
+		top:0.25em;
+	}
+
+
 }
 
 @media screen and (max-width: 640px) {
