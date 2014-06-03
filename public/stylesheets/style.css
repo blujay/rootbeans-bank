@@ -452,10 +452,11 @@ a.button, button.button {
 }
 
 .tweet > img {
-    bottom: -5em;
     clear: both;
     display: block;
+    left: -3em;
     position: absolute;
+    top: -0.2em;
 }
 
 .beans-list {
