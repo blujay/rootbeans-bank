@@ -823,6 +823,7 @@ a.bean-link:hover {
     .leadin{
         text-align:center;
         display:block;
+
     }
     
     .block.question {
@@ -855,7 +856,7 @@ a.bean-link:hover {
 @media screen and (max-width: 550px) {
     .sub-header {font-size:3em;padding-bottom:120%;}
     .beanbag-holder{top:11em;}
-    .block.question {padding: 0em 2em 2em;}
+    .block.question {padding: 2em 2em 2em;}
     .intro, .question-description {padding:0;}
 }
 
@@ -867,8 +868,8 @@ a.bean-link:hover {
     .sub-header {font-size:3em;padding-bottom:110%;}
     .beanbag-holder{top:12em;}
     .beanbag-placeholder{background-size:100%;background-position:0.25em center;}
-    .intro, .question-description {padding:1em;}
-    .block.question {padding: 2em 0.25em;}
+    .intro, .question-description {padding:0 1em;}
+    .block.question {padding: 1em 0.25em;}
     h2,h3,legend {text-align:center;}
     .enter-bean {font-size: 16em;}
     .beanbaglist .row-inner {padding: 0em;}
