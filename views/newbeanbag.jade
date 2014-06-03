@@ -3,13 +3,12 @@ extends layout
 block content
 	.content.newbean.page.row
 		.row-inner
-			h2 What's important to you?
-			p It can be anything big or small - as you'll find out with the results!
+			h2 Add your beans 
+			p <strong>What's important to you?</strong> Put only one word on each bean. It can be anything big or small - as you'll find out with the results!
 				
 				form#form-add-beanbag(name="addbeanbag",method="post",action="/addbeanbag")
 					
 					fieldset.fieldset-add-beans
-						h3 Put one word on each bean
 						p.enter-bean
 							span.icon-bean1
 							input.bean.input.bean1name(type="text", name="bean1name", id="bean1name")
@@ -46,6 +45,6 @@ block content
 							p.beanbagname
 								input.input-beanbag-name(type="text", name="beanbagname", id="beanbagname")
 						
-					button#btnSubmit.button(type="submit") Add beanbag
+					button#btnSubmit.button(type="submit") Spill the beans
 					
 				
