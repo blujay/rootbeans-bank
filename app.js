@@ -2,7 +2,8 @@
 /**
  * Module dependencies.
  */
-
+var dotenv = require('dotenv');
+dotenv.load();
 var express = require('express');
 var routes = require('./routes');
 var user = require('./routes/user');
@@ -10,7 +11,7 @@ var http = require('http');
 var path = require('path');
 var mongo = require('mongodb');
 var monk = require('monk');
-var db = monk('mongodb://heroku_app23529326_A:EKVkMoxQbqhRdUVbQsCGPtqlHwLLgGgT@ds037097.mongolab.com:37097/heroku_app23529326');
+var db = monk(process.env.MONGOLAB_URI);
 
 var app = express();
 
