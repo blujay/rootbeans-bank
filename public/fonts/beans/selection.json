@@ -1,0 +1,99 @@
+{
+	"IcoMoonType": "selection",
+	"icons": [
+		{
+			"icon": {
+				"paths": [
+					"M84.797 558.4c186.065-221.002 695.648-256.266 883.876 47.149s-150.043 473.597-325.129 397.212c-175.086-76.385-207.046 39.199-400.57 18.777s-344.242-242.137-158.177-463.138z"
+				],
+				"grid": 0,
+				"tags": [
+					"bean1"
+				]
+			},
+			"properties": {
+				"order": 5,
+				"id": 5,
+				"prevSize": 32,
+				"code": 58880,
+				"name": "bean1",
+				"ligatures": ""
+			},
+			"setIdx": 0,
+			"iconIdx": 0
+		},
+		{
+			"icon": {
+				"paths": [
+					"M751.956 1020.704c20.418-60.433 0.55-129.682-43.595-174.544-87.157-90.753-243.163-98.023-341.264-20.831-49.157 37.633-80.912 99.97-73.546 162.507 1.833 25.693 8.477 35.994 8.477 35.994s24.862-0.864 47.651-5.027c36.53-4.704 104.374-30.125 129.296-35.754 59.407-14.724 111.207-3.353 161.112 18.295 35.015 15.939 73.658 21.154 111.868 19.36z"
+				],
+				"grid": 0,
+				"tags": [
+					"bean-radicle"
+				]
+			},
+			"properties": {
+				"order": 6,
+				"id": 4,
+				"prevSize": 32,
+				"code": 58881,
+				"name": "bean-radicle",
+				"ligatures": ""
+			},
+			"setIdx": 0,
+			"iconIdx": 1
+		}
+	],
+	"height": 1024,
+	"metadata": {
+		"name": "beans",
+		"designer": "",
+		"designerURL": "",
+		"license": ""
+	},
+	"preferences": {
+		"fontPref": {
+			"prefix": "icon-",
+			"metadata": {
+				"fontFamily": "beans",
+				"majorVersion": 1,
+				"minorVersion": 0,
+				"designerURL": "",
+				"designer": "",
+				"license": ""
+			},
+			"showGlyphs": true,
+			"metrics": {
+				"emSize": 512,
+				"baseline": 6.25,
+				"whitespace": 50
+			},
+			"resetPoint": 58880,
+			"showQuickUse": true,
+			"quickUsageToken": false,
+			"showMetrics": true,
+			"showMetadata": true,
+			"showVersion": false,
+			"autoHost": true
+		},
+		"imagePref": {
+			"color": 0,
+			"height": 32,
+			"columns": 16,
+			"margin": 16,
+			"png": false,
+			"sprites": true
+		},
+		"historySize": 100,
+		"showCodes": true,
+		"gridSize": 16,
+		"showLiga": false,
+		"showGrid": true,
+		"showGlyphs": true,
+		"showQuickUse": true,
+		"search": "",
+		"quickUsageToken": {
+			"UntitledProject1": "YTVjMjhmYzY5MmIxNjg2MDFiODcxNTA0OGY0NGNmZGMjMiMxNDA0Mzc3MTUyIyMj"
+		}
+	}
+}

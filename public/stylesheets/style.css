@@ -422,7 +422,7 @@ a.button, button.button {
     display: block;
     float: left;
     margin: 1%;
-    padding: 5em 4em 4em;
+    padding: 5em 6em 4em;
     text-align: center;
     width: 100%;
 }
@@ -472,10 +472,10 @@ a.button, button.button {
 
 .bean-item {
     display: inline-block;
-    height: 4em;
-    margin: 0.5em;
+    margin: 0.25em;
+    overflow: visible;
     position: relative;
-    width: 6em;
+    
 }
 
 .bean-form {
@@ -485,13 +485,14 @@ a.button, button.button {
 }
 
 a.bean-link {
-    display: block;
-    height: 100%;
-    width:100%;
+    color: #333;
+    display: inline-block;
+    height: auto;
+    line-height: 1em;
+    margin-top: -0.35em;
     position: relative;
     top: 0;
-    color:#333;
-    line-height:0.7em;
+    width: 100%;
 }
 
 .bean-link a:hover {
@@ -503,15 +504,14 @@ a.bean-link {
 }
 
 .bean-name {
-    color: #FFFFFF;
+    color: #ffffff;
+    font-family: "ubuntu condensed",sans-serif;
     font-size: 0.17em;
     left: 0;
     position: absolute;
     text-align: center;
-    top: -0.35em;
+    top: 0.75em;
     width: 100%;
-    font-family:"ubuntu condensed",sans-serif;
-    text-transform:capitalize;
 }
 
 .bean-list .bean-name{
@@ -550,7 +550,8 @@ a.bean-link[title="God"] {
 a.bean-link[title="Freedom"],
 a.bean-link[title="Time"],
 a.bean-link[title="Future"],
-a.bean-link[title="Control"]{
+a.bean-link[title="Control"],
+a.bean-link[title="Balance"]{
 	color:#00CFB7;
 }
 
@@ -568,6 +569,7 @@ a.bean-link[title="Creativity"],
 a.bean-link[title="Stories"],
 a.bean-link[title="Science"],
 a.bean-link[title="Art"],
+a.bean-link[title="Knowledge"],
 a.bean-link[title="Technology"]{
    color:#53BF94;
 }
@@ -575,7 +577,8 @@ a.bean-link[title="Technology"]{
 a.bean-link[title="Food"],
 a.bean-link[title="Health food"],
 a.bean-link[title="Wine"],
-a.bean-link[title="Sleep"] {
+a.bean-link[title="Sleep"],
+a.bean-link[title="Walking"] {
    color:#FF7A0F;
 }
 
@@ -586,6 +589,7 @@ a.bean-link[title="Sex"]{
 
 a.bean-link[title="Music"],
 a.bean-link[title="Dancing"]
+
  {
    color:#4F5C7F;
 }
@@ -617,7 +621,8 @@ a.bean-link[title="Empathy"]{
    color:#FF0064;
 }
 
-a.bean-link[title="Sunshine"] {
+a.bean-link[title="Sunshine"],
+a.bean-link[title="Sun"] {
    color:#D4AA00;
 }
 
@@ -634,30 +639,37 @@ a.bean-link:hover {
 	color:#8E946D;
 }
 
-.icon-radicle {
-    bottom: 0.0635em;
+.icon-bean-radicle {
+    bottom: 0;
     color: rgba(0, 0, 0, 0.4);
     display: block;
-    font-size: 0.4em;
-    height: 0.5em;
-    left: 0.045em;
+    font-size: 1em;
+    height: 1em;
+    left: 0;
     position: absolute;
     width: 100%;
     z-index: 5;
 }
 
 .bean-count {
-    color: #FFFFFF;
+    bottom: 0.6em;
+    color: #ffffff;
     display: block;
     font-family: "ubuntu",sans-serif;
-    font-size: 0.25em;
+    font-size: 0.1em;
     font-weight: bold;
     left: 0;
     position: absolute;
     text-align: center;
-    top: 0.5em;
     width: 100%;
 }
+
+a.bean-link[rel="1"] .bean-count,
+a.bean-link[rel="2"] .bean-count,
+a.bean-link[rel="3"] .bean-count {
+		bottom:0.06em;
+		font-size:0.06em;
+	}
 
 
 

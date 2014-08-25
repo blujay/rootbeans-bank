@@ -7,11 +7,35 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    width="512"
    height="512"
    viewBox="0 0 512 512"
-   id="svg2">
+   id="svg2"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="bean1.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1347"
+     inkscape:window-height="780"
+     id="namedview3300"
+     showgrid="false"
+     inkscape:zoom="2"
+     inkscape:cx="308.20956"
+     inkscape:cy="5.6602337"
+     inkscape:window-x="10"
+     inkscape:window-y="34"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
   <metadata
      id="metadata74">
     <rdf:RDF>
@@ -288,11 +312,12 @@
      id="g22591-0"
      style="fill:#000000;fill-opacity:1" />
   <g
-     transform="matrix(3.3429358,0,0,3.3429358,-997.62293,-1519.6018)"
+     transform="matrix(3.3429358,0,0,3.3429358,-997.70415,-1423.1032)"
      id="layer1">
     <path
-       d="M 311.1345,509.22396 C 338.96408,476.16894 415.18202,470.89441 443.33507,516.27603 C 471.48812,561.65766 420.89321,587.11153 394.7058,575.68674 C 368.51839,564.26195 363.73804,581.54966 334.79283,578.49518 C 305.84762,575.4407 283.30492,542.27897 311.1345,509.22396 z"
+       d="m 311.1345,509.22396 c 27.82958,-33.05502 104.04752,-38.32955 132.20057,7.05207 28.15305,45.38163 -22.44186,70.8355 -48.62927,59.41071 -26.18741,-11.42479 -30.96776,5.86292 -59.91297,2.80844 -28.94521,-3.05448 -51.48791,-36.21621 -23.65833,-69.27122 z"
        id="path5941"
-       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+       style="color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:10;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>
