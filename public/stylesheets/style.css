@@ -107,7 +107,7 @@ body {
     display: block;
     float: right;
     margin-bottom: -5%;
-    margin-top: -5%;
+    margin-top: 2%;
     position: relative;
     width: 60%;
 }
@@ -123,7 +123,10 @@ body {
 }
 
 .site-title {
-	margin:0;
+    display: block;
+    margin: 0;
+    position: relative;
+    z-index: 1;
 }
 
 .ribbon,
@@ -143,6 +146,7 @@ body {
 
 .row.content {
 	background-color:#fff;
+	padding-bottom:1em;
 }
 
 .content.newbean.page.row {
@@ -275,21 +279,22 @@ a.button, button.button {
 }
 
 
-.beanbag-user-actions .add-beanbag {
-    display: table-cell;
+.beanbag-user-actions .button {
+    display: block;
     padding-right:1em;
+    width:100%;
 }
 
-.add-beanbag .button {
+.button {
 	display:block;
 	
 }
 
-.add-beanbag .button:hover {
+.button:hover {
     background-color:#888888;
 }
 
-.button.add-bean:after {
+.button:after {
     border-bottom: 0.5em solid transparent;
     border-left: 1em solid white;
     border-top: 0.5em solid transparent;
@@ -305,6 +310,24 @@ a.button, button.button {
 .beanbag-user-actions .search-beanbag {
 	display:table-cell;
 	width:50%;
+}
+
+
+.download-data {
+    float: left;
+    font-size: 0.6em;
+    padding: 0.2em;
+    width: 50%;
+}
+
+.download-data > .button:after {
+    border: medium none;
+    content: "";
+}
+
+.button.download-data {
+    padding-right: 0;
+    background-color:#D45500;
 }
 
 
@@ -334,7 +357,7 @@ a.button, button.button {
 .enter-bean {
     display: inline-block;
     font-size: 10em;
-    height: 0.65em;
+    height: 1em;
     margin: 0;
     overflow: hidden;
     position: relative;
@@ -363,7 +386,7 @@ a.button, button.button {
     padding: 0.2em;
     position: absolute;
     text-align: center;
-    top: 1.8em;
+    top: 4em;
     width: 80%;
 }
 
@@ -473,7 +496,7 @@ a.button, button.button {
 .bean-item {
     display: inline-block;
     margin: 0.25em;
-    overflow: visible;
+    overflow: hidden;
     position: relative;
     
 }

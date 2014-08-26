@@ -6,7 +6,6 @@ block content
 		.row-inner
 			.section.info-panel
 				.block.question
-					span.leadin Here's a simple game...
 					h2.sub-header What's important to you?
 					p.intro Rootbeans would like to invite you to share your answer with us using 10 beans. It's easy:
 					ul.question-description
@@ -17,5 +16,11 @@ block content
 					.beanbag-user-actions
 						.add-beanbag
 							a.button.add-bean(href='newbeanbag', title='Spill the beans - add words to the beans to answer the question "Whats important to you?" ') Add your beans
+						.view-beanbag
+							a.button.view-bean(href='beanbaglist', title='View all beanbags and beans') View all beanbags
+						.download-data
+							a.button.download-data(href='/data/beanbag.json', title='Download database as of 5th August 2014 as json file') Download Data (json)
+						.download-data
+							a.button.download-data(href='/data/beanbank.csv', title='Download database as of 5th August 2014 as csv file') Download Data (csv)
 			section.beanbag-holder
 				.beanbag-placeholder
