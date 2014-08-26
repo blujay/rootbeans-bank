@@ -251,7 +251,7 @@ a.button, button.button {
 
 .beanbag-user-actions {
     display: inline;
-    font-size: 0.9em;
+    font-size: 0.8em;
     position: relative;
 }
 
@@ -303,6 +303,9 @@ a.button, button.button {
     float: right;
     height: 0;
     margin-left: 1em;
+    position: absolute;
+    right: 0.5em;
+    top: 0.5em;
     transform: scale(1.1);
     width: 0;
 }
