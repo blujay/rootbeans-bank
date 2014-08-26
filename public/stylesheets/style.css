@@ -5,7 +5,7 @@ html {
 
 body {
 	background-color:#555;
-	font-size:1.5em;
+	font-size:1.3em;
 	font-family:"ubuntu", sans-serif;
 }
 
@@ -106,7 +106,7 @@ body {
 .beanbag-holder {
     display: block;
     float: right;
-    margin-bottom: -5%;
+    margin-bottom: 0;
     margin-top: 2%;
     position: relative;
     width: 60%;
@@ -185,16 +185,14 @@ span.connector {
 .page-title > span {
     color: #8E946D;
     font-size: 0.8em;
-    font-weight: normal !important;
+    font-weight: normal!important;
 }
-
-
 
 .block h2:first-child {
 	margin-top:0;
 }
 
-a.button, button.button {
+a.button, .button {
     background: none repeat scroll 0 0 #88AA00;
     border: medium none;
     color: #FFFFFF;
@@ -771,57 +769,6 @@ a.bean-link[rel="3"] .bean-count {
 		.tweet > img {
 			margin-left:1em;
 	}
-}
-@media screen and (max-width: 780px) and (-webkit-min-device-pixel-ratio : 2) {
-	
-	a.bean-link[rel="1"] {
-		font-size:6em;
-	}
-	a.bean-link[rel="1"] .icon-radicle {
-		bottom:1.3em;
-	}
-	
-	a.bean-link[rel="1"] .bean-count{
-		font-size:5px;
-		top:0.25em;
-	}
-	a.bean-link[rel="1"] .bean-name {
-		font-size:7px;
-	}
-	
-	a.bean-link[rel="2"] .bean-name {
-		font-size:7px;
-	}
-	a.bean-link[rel="2"] .bean-count{
-		font-size:6px;
-		top:0.25em;
-	}
-	a.bean-link[rel="2"] .icon-radicle {
-		bottom:1em;
-	}
-	a.bean-link[rel="4"] .icon-radicle {
-		bottom:0.6em;
-	}
-	a.bean-link[rel="4"] .bean-count{
-		top:0.1em;
-		font-size:7px;
-	}
-	a.bean-link[rel="5"] .icon-radicle {
-		bottom:0.35em;
-	}
-	a.bean-link[rel="5"] .bean-count{
-		top:0.1em;
-		font-size:7px;
-	}
-	a.bean-link[rel="6"] .icon-radicle {
-		bottom:0.2em;
-	}
-	a.bean-link[rel="6"] .bean-count{
-		font-size:7px;
-		top:0.25em;
-	}
-
-
 }
 
 @media screen and (max-width: 640px) {
