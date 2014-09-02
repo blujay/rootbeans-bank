@@ -87,7 +87,7 @@ body {
 }
 .row-inner {
     margin: 0 auto 2em auto;
-    max-width: 960px;
+    max-width: 1400px;
     min-width: 290px;
     padding: 0 2em;
 }
@@ -495,10 +495,14 @@ a.button, .button {
 }
 
 .bean-item {
-    display: inline-block;
-    margin: 0.25em;
+    display:inline-block;
+    margin: 0 0.25em;
     overflow: hidden;
     position: relative;
+    list-style:none;
+    padding:none;
+    height:4em;
+    width:6em;
     
 }
 
@@ -510,13 +514,20 @@ a.button, .button {
 
 a.bean-link {
     color: #333;
-    display: inline-block;
-    height: auto;
-    line-height: 1em;
-    margin-top: -0.35em;
-    position: relative;
-    top: 0;
+    display: block;
+    height: 100%;
+    margin-top: 0;
+    position: absolute;
+    top: -1px;
     width: 100%;
+}
+
+
+.icon-bean1:before {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width:100%;
 }
 
 .bean-link a:hover {
@@ -531,10 +542,12 @@ a.bean-link {
     color: #ffffff;
     font-family: "ubuntu condensed",sans-serif;
     font-size: 0.17em;
+    height: 1em;
     left: 0;
+    overflow: hidden;
     position: absolute;
     text-align: center;
-    top: 0.75em;
+    top: 1.3em;
     width: 100%;
 }
 
@@ -589,10 +602,7 @@ a.bean-link[title="Learning"],
 a.bean-link[title="Books"],
 a.bean-link[title="Education"],
 a.bean-link[title="Studying"],
-a.bean-link[title="Creativity"],
-a.bean-link[title="Stories"],
 a.bean-link[title="Science"],
-a.bean-link[title="Art"],
 a.bean-link[title="Knowledge"],
 a.bean-link[title="Technology"]{
    color:#53BF94;
@@ -612,9 +622,10 @@ a.bean-link[title="Sex"]{
 }
 
 a.bean-link[title="Music"],
-a.bean-link[title="Dancing"]
-
- {
+a.bean-link[title="Dancing"],
+a.bean-link[title="Creativity"],
+a.bean-link[title="Stories"],
+a.bean-link[title="Art"]{
    color:#4F5C7F;
 }
 
@@ -668,11 +679,19 @@ a.bean-link:hover {
     color: rgba(0, 0, 0, 0.4);
     display: block;
     font-size: 1em;
-    height: 1em;
+    height: 100%;
     left: 0;
     position: absolute;
     width: 100%;
     z-index: 5;
+}
+
+.icon-bean-radicle:before {
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    width:100%;
 }
 
 .bean-count {
@@ -691,7 +710,7 @@ a.bean-link:hover {
 a.bean-link[rel="1"] .bean-count,
 a.bean-link[rel="2"] .bean-count,
 a.bean-link[rel="3"] .bean-count {
-		bottom:0.06em;
+		bottom:0.5em;
 		font-size:0.06em;
 	}
 
@@ -829,12 +848,18 @@ a.bean-link[rel="3"] .bean-count {
     }
     
     .beanbag-user-actions {margin-left:3.5em;}
-    .beanbag-item {font-size: 0.65em;padding: 5em 2em 6em;}
+    .beanbag-item {font-size: 0.65em;padding: 5em 3em 6em;}
 	.beanbag-title{font-size:2.5em;}
 	.tweet {font-size: 1.5em;top: -1.5em;}
 	.tweet > img {bottom: -6.5em;}
 	.bag-score, .bag-score p {font-size: 1.1em;}
 
+	a.bean-link[rel="1"] .bean-count,
+	a.bean-link[rel="2"] .bean-count,
+	a.bean-link[rel="3"] .bean-count {
+		bottom:0.1em;
+		font-size:0.06em;
+	}
 }
 
 
@@ -858,6 +883,7 @@ a.bean-link[rel="3"] .bean-count {
     h2,h3,legend {text-align:center;}
     .enter-bean {font-size: 16em;}
     .beanbaglist .row-inner {padding: 0em;}
+    .bean-item {font-size:0.1em;}
 }
 
 

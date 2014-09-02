@@ -19,15 +19,14 @@ block content
               each bean, b in beanbag.beans
                 -var name = bean.name
                 -var beansize = beancounts[name]
-                li.bean-item.bean(rel='#{name}',style='font-size:'+ ((beansize/16)+ 0.5) + 'em')
+                li.bean-item.bean(rel='#{name}',style='font-size:'+ ((beansize/16)+ 1) + 'em')
                   a.bean-link.icon-bean1.bean-form(title="#{name}", href="http://en.wikipedia.org/wiki/#{name}",rel='#{beancounts[name]}')
                     .bean-value.icon-bean-radicle
                       span.bean-count
                         =beancounts[name]
                     span.bean-name
                       =bean.name
-            a.tweet(title="tweet this beanbag's score", href="https://twitter.com/intent/tweet?text=Beanbag+" + '"' + beanbag.beanbagname + '"' + "+has+a+current+score+of+" + bagcounts[beanbag.beanbagname] + "+points+at+%23Beanbank+by+%40rootbeans.+What's+your+bag+worth%3F+find+out+at+http%3A%2F%2Fctt.ec%2FIXHd9%2B")
-              img(width="109", height="83", border="0" alt="Tweet beanbag score" src="http://www.rootinteractive.com/assets/tweet-bird-rootinteractive.gif")          
+                  
       .footer-info(style="text-align:center;")       
         p <strong>Beanbag scores are increasing as new people add their own.</strong> 
         p Feel free to add new ones and if you want to get back to this page and check on your beanbag
