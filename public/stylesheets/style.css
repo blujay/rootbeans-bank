@@ -156,7 +156,7 @@ body {
 		min-height:15em;
 		display:block;
 		position:relative;
-		width:100%;
+		max-width:1024px;
 	}
 
 span.connector {
@@ -283,6 +283,20 @@ a.button, .button {
     width:100%;
 }
 
+.add-beanbag, .view-beanbag {
+    display: block;
+    float: left;
+    width: 50%;
+}
+
+.add-beanbag {
+	padding-right:2px;
+}
+
+.view-beanbag {
+	padding-left:2px;
+}
+
 .button {
 	display:block;
 	
@@ -292,21 +306,6 @@ a.button, .button {
     background-color:#888888;
 }
 
-.button:after {
-    border-bottom: 0.5em solid transparent;
-    border-left: 1em solid white;
-    border-top: 0.5em solid transparent;
-    content: "";
-    display: block;
-    float: right;
-    height: 0;
-    margin-left: 1em;
-    position: absolute;
-    right: 0.5em;
-    top: 0.5em;
-    transform: scale(1.1);
-    width: 0;
-}
 
 .beanbag-user-actions .search-beanbag {
 	display:table-cell;
@@ -407,6 +406,7 @@ a.button, .button {
 
 #form-add-beanbag #btnSubmit {
 	font-size:1.5em;
+	display:inline;
 }
 
 /*****View beans******/
@@ -528,6 +528,11 @@ a.bean-link {
     left: 0;
     position: absolute;
     width:100%;
+}
+
+
+.enter-bean > .icon-bean1:before {
+    position: relative;
 }
 
 .bean-link a:hover {
