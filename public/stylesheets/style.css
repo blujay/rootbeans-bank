@@ -87,7 +87,7 @@ body {
 }
 .row-inner {
     margin: 0 auto 2em auto;
-    max-width: 1400px;
+    max-width: 1024px;
     min-width: 290px;
     padding: 0 2em;
 }
@@ -106,8 +106,8 @@ body {
 .beanbag-holder {
     display: block;
     float: right;
-    margin-bottom: 0;
-    margin-top: 2%;
+    margin-bottom: -10%;
+    margin-top: -8%;
     position: relative;
     width: 60%;
 }
@@ -283,6 +283,10 @@ a.button, .button {
     width:100%;
 }
 
+.add-beanbag .button {
+	background-color:#D45500;
+}
+
 .add-beanbag, .view-beanbag {
     display: block;
     float: left;
@@ -341,6 +345,17 @@ a.button, .button {
     padding: 100% 0 0 0;
 	background-image:url(/images/beanbag-holder-image.png);
 	background-size:100%;
+}
+
+.beanbag-placeholder > a {
+    display: block;
+    height: 0;
+    left: 0;
+    padding: 100% 0;
+    position: absolute;
+    text-indent: -99999px;
+    top: 0;
+    width: 100%;
 }
 
 /*****Add new beanbag******/
@@ -547,12 +562,13 @@ a.bean-link {
     color: #ffffff;
     font-family: "ubuntu condensed",sans-serif;
     font-size: 0.17em;
-    height: 1em;
+    height: 1.2em;
     left: 0;
+    line-height:1.1em;
     overflow: hidden;
     position: absolute;
     text-align: center;
-    top: 1.3em;
+    top: 1.2em;
     width: 100%;
 }
 
@@ -593,7 +609,8 @@ a.bean-link[title="Freedom"],
 a.bean-link[title="Time"],
 a.bean-link[title="Future"],
 a.bean-link[title="Control"],
-a.bean-link[title="Balance"]{
+a.bean-link[title="Balance"]
+{
 	color:#00CFB7;
 }
 
@@ -645,11 +662,10 @@ a.bean-link[title="Money"] {
 }
 
 a.bean-link[title="Peace"],
-a.bean-link[title="Truth"],
-a.bean-link[title="Respect"],
 a.bean-link[title="Equality"],
 a.bean-link[title="Security"],
-a.bean-link[title="Safety"] {
+a.bean-link[title="Safety"],
+a.bean-link[title="Honesty"] {
    color:#8F7D7D;
 }
 
@@ -669,7 +685,6 @@ a.bean-link[title="Sun"] {
 a.bean-link[title="Work"],
 a.bean-link[title="Career"],
 a.bean-link[title="Job"],
-a.bean-link[title="Drive"],
 a.bean-link[title="Purpose"]{
 	color:#5F1D45;
 }
@@ -739,10 +754,7 @@ a.bean-link[rel="3"] .bean-count {
 }
 
 @media screen and (max-width: 1280px) {
-    .beanbag-holder {
-        margin-bottom: 0;
-        margin-top: 2em;
-    }
+    
     span.connector{
         top:10em;
     }
@@ -754,10 +766,7 @@ a.bean-link[rel="3"] .bean-count {
 }
 
 @media screen and (max-width: 960px) {
-    .beanbag-holder {
-        margin-bottom: 0;
-        margin-top: 2em;
-    }
+    
 }
 
 @media screen and (max-width: 780px) {
@@ -870,7 +879,7 @@ a.bean-link[rel="3"] .bean-count {
 
 @media screen and (max-width: 550px) {
     .sub-header {font-size:3em;padding-bottom:120%;}
-    .beanbag-holder{top:11em;}
+    
     .block.question {padding: 2em 2em 2em;}
     .intro, .question-description {padding:0;}
 }
