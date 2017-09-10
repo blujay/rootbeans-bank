@@ -609,14 +609,18 @@ a.bean-link[title="Freedom"],
 a.bean-link[title="Time"],
 a.bean-link[title="Future"],
 a.bean-link[title="Control"],
-a.bean-link[title="Balance"]
+a.bean-link[title="Balance"],
+a.bean-link[title="Independence"]
 {
 	color:#00CFB7;
 }
 
 a.bean-link[title="Friends"],
 a.bean-link[title="Friendship"],
-a.bean-link[title="People"] {
+a.bean-link[title="People"],
+a.bean-link[title="Community"]
+
+{
    color:#217867;
 }
 
@@ -647,7 +651,9 @@ a.bean-link[title="Music"],
 a.bean-link[title="Dancing"],
 a.bean-link[title="Creativity"],
 a.bean-link[title="Stories"],
-a.bean-link[title="Art"]{
+a.bean-link[title="Art"],
+a.bean-link[title="Imagination"],
+a.bean-link[title="Ideas"]{
    color:#4F5C7F;
 }
 
@@ -657,7 +663,8 @@ a.bean-link[title="Travel"]{
 }
 
 a.bean-link[title="Home"],
-a.bean-link[title="Money"] {
+a.bean-link[title="Money"],
+a.bean-link[title="Brighton"]{
    color:#9F597D;
 }
 
@@ -665,7 +672,10 @@ a.bean-link[title="Peace"],
 a.bean-link[title="Equality"],
 a.bean-link[title="Security"],
 a.bean-link[title="Safety"],
-a.bean-link[title="Honesty"] {
+a.bean-link[title="Honesty"],
+a.bean-link[title="Respect"],
+a.bean-link[title="Justice"],
+a.bean-link[title="Tolerance"]{
    color:#8F7D7D;
 }
 
